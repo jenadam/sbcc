@@ -1,0 +1,11 @@
+<div class="flag-descriptions" ng-repeat="flag in flags">
+	<div class="flag-description" id="flag-description-{{flag.id}}">
+		<div class="flag-description-img"><img src="{{flag.bgImage}}"></div>
+		<div class="flag-description-text">
+			<h1>Description:</h1>
+			<p>{{flag.description}}</p>
+		</div>
+		<div class="flag-description-close-button" onclick="$('.flag-description').fadeOut('fast')">×</div>
+		<div class="flag-description-tip-container"><div class="flag-description-tip"></div></div>
+	</div>
+</div>

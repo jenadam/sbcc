@@ -1,0 +1,223 @@
+[
+  {
+    "id": "administration",
+    "name": "Administration",
+    "coords": {
+      "lat": -17,
+      "lng": 39
+    },
+	"type": "flag",
+	"description": "The Mac Dougall Administration Center houses the administrative offices of the college, Information Desk, Occupational Education, and Foundation for SBCC offices.",
+    "bgImage": "images/flag-menu-goodshepherd.png"
+  },
+  {
+    "id": "studentservices",
+    "name": "Student Services",
+    "coords": {
+      "lat": -14,
+      "lng": 45
+    },
+	"type": "flag",
+	"description": "The Student Services Building houses Admissions & Records, Academic Counseling, Assessment, Career Center, Disabled Students Programs and Services (DSPS), Enrollment Services, Extended Opportunity Programs and Services (EOPS), Financial Aid, Student Health Services, Human Resources, and the Transfer Center.",
+    "bgImage": "images/flag-menu-cuarena.png"
+  },
+  {
+    "id": "humanities",
+    "name": "Humanities",
+    "coords": {
+      "lat": -14.25,
+      "lng": 54
+    },
+	"type": "flag",
+	"description": "The Humanities building houses the Atkinson Art Gallery and Humanities offices.",
+    "bgImage": "images/flag-menu-upperquads.png"
+  },
+  {
+    "id": "bookstore",
+    "name": "Book Store",
+    "coords": {
+      "lat": -21,
+      "lng": 51
+    },
+	"type": "flag",
+	"description": "Each apartment-style dorm for upperclassmen in the Lower Quads includes a common living area and kitchen. Students come together to cook on the outdoor barbecue. The LQ is home to Wittenberg Hall, one of Concordia’s Living Learning Communities, devoted to living life together in the intersection between faith and learning.",
+    "bgImage": "images/flag-menu-lowerquads.png"
+  },
+  {
+    "id": "businesscommunicationcenter",
+    "name": "Business / Communication Center",
+    "coords": {
+      "lat": -28,
+      "lng": 21
+    },
+	"type": "flag",
+	"description": "The Business/Communication Center is located on our West Campus. It houses the FeBland Forum as well as the West Campus Snack Shop, the Business Department and Communication Department offices, and the Business Communications labs.",
+    "bgImage": "images/flag-menu-rho.png"
+  },
+  {
+    "id": "campuscenter",
+    "name": "Campus Center",
+    "coords": {
+      "lat": -17.75,
+      "lng": 52.25
+    },
+	"type": "flag",
+	"description": "The Campus Center houses the Cafeteria, East Campus Snack Shop and variety of inexpensive food choices, Office of Student Life: Housing Information, Student Activities and Associated Student Government, and The Channels (SBCC’s community newspaper).",
+    "bgImage": "images/flag-menu-sigma.png"
+  },
+  {
+    "id": "dramamusic",
+    "name": "Drama / Music",
+    "coords": {
+      "lat": -36,
+      "lng": 23.25
+    },
+	"type": "flag",
+	"description": "The Drama/Music building is located on the West Campus. It houses the Jurkowitz Theatre and the Drama and Music Department offices.",
+    "bgImage": "images/flag-menu-cucenter.png"
+  },
+  {
+    "id": "earthbiologicalsciences",
+    "name": "Earth and Biological Sciences",
+    "coords": {
+      "lat": -19.5,
+      "lng": 47.5
+    },
+	"type": "flag",
+	"description": "The Earth & Biological Sciences building houses the department offices for these subjects.",
+    "bgImage": "images/flag-menu-libraryarts.png"
+  },
+  {
+    "id": "eastcampusclassrooms",
+    "name": "East Campus Classrooms",
+    "coords": {
+      "lat": -19,
+      "lng": 56.5
+    },
+	"type": "flag",
+	"description": "This area represents East Campus Classrooms 4-7,14-15, 16-21, 28-30, and 33.",
+    "bgImage": "images/flag-menu-mall.png"
+  },
+  {
+    "id": "eastcampusofficecenter1and2",
+    "name": "East Campus Office Center I & II, ESL Center",
+    "coords": {
+      "lat": -14.25,
+      "lng": 49.75
+    },
+	"type": "flag",
+	"description": "East Campus Office Center I and II, ESL Center",
+    "bgImage": "images/flag-menu-studentunion.png"
+  },
+  {
+    "id": "eastcampusofficecenter3and4",
+    "name": "East Campus Office Center III and IV",
+    "coords": {
+      "lat": -15.5,
+      "lng": 58.75
+    },
+	"type": "flag",
+	"description": "East Campus Office Centers II & IV are located here.",
+    "bgImage": "images/flag-menu-grimm.png"
+  },
+  {
+    "id": "garvintheater",
+    "name": "Garvin Theater",
+    "coords": {
+      "lat": -32.75,
+      "lng": 22.25
+    },
+	"type": "flag",
+	"description": "The Garvin Theatre is where all campus theatre and music productions are performed.",
+    "bgImage": "images/flag-menu-founders.png"
+  },
+  {
+    "id": "security",
+    "name": "Security",
+    "coords": {
+      "lat": -24.5,
+      "lng": 41.25
+    },
+	"type": "flag",
+	"description": "Here you will find the Campus Security Office in ECC 41. East Campus Classroom 40 houses the Faculty Resource Center; ECC 42 is Purchasing/Receiving.",
+    "bgImage": "images/flag-menu-admin.png"
+  },
+  {
+    "id": "culinaryarts",
+    "name": "School of Culinary Arts",
+    "coords": {
+      "lat": -19.5,
+      "lng": 51.5
+    },
+	"type": "flag",
+	"description": "Our School of Culinary Arts is housed here, along with the John Dunn Gourmet Dining Room.",
+    "bgImage": "images/flag-menu-alpha.png"
+  },
+  {
+    "id": "interdisciplinarycenter",
+    "name": "Interdisciplinary Center",
+    "coords": {
+      "lat": -27.5,
+      "lng": 27
+    },
+	"type": "flag",
+	"description": "The Interdisciplinary Center Houses classrooms and faculty offices.",
+    "bgImage": "images/flag-menu-beta.png"
+  },
+  {
+    "id": "internationaleducationcenter",
+    "name": "International Education Center",
+    "coords": {
+      "lat": -17.25,
+      "lng": 59.25
+    },
+  "type": "flag",
+  "description": "The International Education Center houses service for our international students, as well as the Study Abroad Office.",
+    "bgImage": "images/flag-menu-beta.png"
+  },
+  {
+    "id": "learningresources",
+    "name": "Learning Resources Center, Luria Library",
+    "coords": {
+      "lat": -28,
+      "lng": 32
+    },
+  "type": "flag",
+  "description": "Our Cartwright Learning Resources Center (CLRC) houses the Writing Center, Tutorial Center, computer and printing labs, and Learning Skills workshops. Right next door is the Luria Library. Both building are located on our West Campus.",
+    "bgImage": "images/flag-menu-beta.png"
+  },
+{
+    "id": "sportspavilion",
+    "name": "Sports Pavilion",
+    "coords": {
+      "lat": -25,
+      "lng": 45
+    },
+  "type": "flag",
+  "description": "The Sports Pavilion houses the Life Fitness Center (LFC) and the Physical Education Department.",
+    "bgImage": "images/flag-menu-beta.png"
+  },
+{
+    "id": "marinediving",
+    "name": "Marine Diving Technology Department",
+    "coords": {
+      "lat": -20.5,
+      "lng": 36
+    },
+  "type": "flag",
+  "description": "Marine Diving Technology Department is located here.",
+    "bgImage": "images/flag-menu-beta.png"
+  },
+{
+    "id": "physicalsciences",
+    "name": "Physical Science",
+    "coords": {
+      "lat": -17,
+      "lng": 47
+    },
+  "type": "flag",
+  "description": "The Physical Science building houses the Engineering, Physics, Earth Science, and other physical science majors.",
+    "bgImage": "images/flag-menu-beta.png"
+  }
+]
+

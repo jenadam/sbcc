@@ -1,0 +1,3 @@
+<div class="viewcounts" ng-repeat="loc in locations">
+	<div class="viewcount" id="viewcount-{{loc.id}}" style="display:{{loc.unviewedCount() ? 'block' : 'none';}}">{{loc.unviewedCount()}}</div>
+</div>

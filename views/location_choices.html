@@ -1,0 +1,3 @@
+<div id="choices-container" ng-class="{'two-choices': location.locationChoices.length == 2, 'one-choice': location.locationChoices.length == 1}">
+  <location-choice ng-repeat="locationId in location.locationChoices" location-id="{{locationId}}" index="{{$index+1}}"></location-choice>
+</div>

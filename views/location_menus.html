@@ -1,0 +1,24 @@
+<div class="location-menus" ng-repeat="loc in locations">
+	<div id="location-menus-{{loc.id}}">
+		<div class="location-menus-tip-container">
+			<div class="location-menus-tip {{loc.id}}"></div>
+		</div>
+		<div class="location-menus-close-button" onclick="$('.location-menus-parents').fadeOut('fast')">×</div>
+
+		<nav class="location-menus-nav">
+			<div class="tour-secondary-nav {{loc.id}}" ng-class="{{loc.id}}">
+				<div class="location-menus-img-container">
+					<a href="#/locations/{{loc.id}}"><img src="{{loc.bgImage}}" class="location-menus-img"><img src="images/main-video-icon@2x.png" class="location-menus-img-play"></a>
+				</div><!-- keep these inline styles. we're reusing the guide's css and these are overrides. -->
+				<ul class="location-menus-no-bullet" style="padding: 0px 0px 5px 0px">
+					<li>
+						<h2 class="location-menus-text-center" style="padding: 22px 0px 10px 0px">{{loc.name}}</h2>
+					</li>
+					<li class="location-menus-secondaries" style="padding: 0px 10px 0px 25px" ng-repeat="poi in loc.pointsOfInterest" ng-class="{completed: loc.hasVisited(poi.id), image: poi.mediaType == 'image', video: poi.mediaType == 'video'}" ng-cloak="">
+						<a class="h-{{loc.id}} h-guide-tertiary" href="" ng-click="showPoiModal(poi)">{{poi.name}}</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</div>

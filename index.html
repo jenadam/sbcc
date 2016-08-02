@@ -1,0 +1,186 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Virtual Tour | Santa Barbara Community College</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <meta property="og:title" content="Virtual Tour">
+    <meta property="og:site_name" content="Santa Barbara Community College Virtual Tour">
+    <meta property="og:description" content="Santa Barbara Community College Virtual Tour">
+    <meta property="og:image" content="">
+
+        <link rel="stylesheet" href="styles/aeb20ff7.main.css">
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+        <script>window.Modernizr || document.write('<script src="bower_components/foundation/js/vendor/custom.modernizr.js"><\/script>')</script>
+
+        <!-- <script type="text/javascript">
+              var heap=heap||[];heap.load=function(a){window._heapid=a;var b=document.createElement("script");b.type="text/javascript",b.async=!0,b.src=("https:"===document.location.protocol?"https:":"http:")+"//cdn.heapanalytics.com/js/heap.js";var c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c);var d=function(a){return function(){heap.push([a].concat(Array.prototype.slice.call(arguments,0)))}},e=["identify","track"];for(var f=0;f<e.length;f++)heap[e[f]]=d(e[f])};
+              heap.load("522338693");
+            </script> -->
+			
+			<script type="text/javascript">
+			window.heap=window.heap||[],heap.load=function(t,e){window.heap.appid=t,window.heap.config=e;var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=("https:"===document.location.protocol?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+t+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(t){return function(){heap.push([t].concat(Array.prototype.slice.call(arguments,0)))}},p=["clearEventProperties","identify","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+			heap.load("522338693");
+			</script>			
+
+      <script src="https://use.typekit.net/vbi7eoa.js"></script>
+      <script>try{Typekit.load({ async: true });}catch(e){}</script>
+</head>
+  <body ng-app="cuiVtourAngularApp">
+    <!--[if lt IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+      <script src="bower_components/es5-shim/es5-shim.js"></script>
+      <script src="bower_components/json3/lib/json3.min.js"></script>
+    <![endif]-->
+<!-- Testing Git -->
+    <div id="main-container">
+      <header ng-class="{'open': primaryNav.active || secondaryNav.active || progressNav.location, 'back': secondaryNav.active || progressNav.location }">
+        <h1><a href="#/"><span class="visually-hidden">Concordia University Irvine - Virtual Tour</span></a></h1>
+        <div ng-click="primaryNavToggle()" class="menu-activate">
+        </div>
+      </header>
+      <div ng-class="{'one-open': primaryNav.active, 'two-open': secondaryNav.active, 'three-open': progressNav.location}" class="nav-container" ng-show="Nav.active" ng-cloak="">
+        <nav class="primary-nav" ng-show="primaryNav.active" ng-cloak="">
+          <ul class="no-bullet">
+            <li><a href="" ng-click="activateProgress()"><i class="icon icon-progress"></i> <strong>View Guide</strong></a></li>
+			<li><a href="#/" ng-click="shrinkMenu()"><i class="icon icon-explore"></i> <strong>Explore Map</strong></a></li>
+            <!-- <li><a href="" ng-click="activateWatch()"><i class="icon icon-watch"></i> <strong>Watch</strong></a></li> -->
+            <!-- <li><a href="" ng-click="helpNav.active = true"><i class="icon icon-help"></i> <strong>Help</strong></a></li> -->
+          </ul>
+          <div class="social-footer text-center">
+            <a class="button h-request-info" href="https://www.cui.edu/admissions/undergraduate/inquiry.aspx" target="_blank">Request Info</a><a class="button h-schedule-visit" href="http://www.cui.edu/admissions/undergraduate/visit.aspx" target="_blank">Schedule Visit</a>
+            <!-- AddThis Button BEGIN -->
+              <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+              <a class="addthis_button_facebook"></a>
+              <a class="addthis_button_twitter"></a>
+              <a class="addthis_button_google_plusone_share"></a>
+              </div>
+              <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52af4a6f1076d48e"></script>
+              <!-- AddThis Button END -->
+              <span class="hashtag">#sbccvirtualtour</span>
+          </div>
+        </nav>
+        <nav class="secondary-nav" ng-show="secondaryNav.active" ng-cloak="" ng-swipe-right="swipePrimary()">
+          <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+          <div class="viewport">
+            <div class="overview">
+              <div class="tour-nav" ng-show="progressNav.active">
+                <h2 class="text-center">The Tour</h2>
+                <ul class="no-bullet progress-nav">
+                  <li ng-repeat="location in locations" class="{{location.id}}" ng-class="{'active': location.id==progressNav.location.id, 'visited': location.hasVisited()}" ng-cloak="">
+                    <a class="h-{{location.id}} h-guide-secondary" href="" ng-click="progressNav.location = location">
+                      <i class="icon location-icon"></i>
+                      <h3>{{location.name}}</h3>
+                      <p>{{location.pointsOfInterest.length}} Points of Interest</p>
+                      <ul class="inline-list poi-list">
+                        <li ng-repeat="poi in location.pointsOfInterest" ng-class="{completed: location.hasVisited(poi.id)}" ng-cloak="">{{poi.name}}</li>
+                      </ul>
+                    </a>
+                    <div class="secondary-indicator"></div>
+                  </li>
+                </ul>
+              </div>
+              <div class="watch-nav" ng-show="watchNav.active">
+                <h2 class="text-center">Watch</h2>
+                <ul class="no-bullet watch-list">
+                  <li ng-repeat="location in locations" class="{{location.id}}" ng-class="{'visited': location.hasVisited()}" ng-cloak="">
+                    <a href="#/locations/{{location.id}}" ng-click="watchNav.location = location">
+                      <i class="icon location-icon"></i>
+                      <h3><span>{{location.name}}</span></h3>
+                      <img ng-src="{{location.image}}">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <nav class="tertiary-nav" ng-show="progressNav.location" ng-cloak="">
+          <div class="tour-secondary-nav" ng-class="progressNav.location.id">
+            <h2 class="text-center">{{progressNav.location.name}}</h2>
+            <ul class="no-bullet tour-secondary-list">
+              <li class="main-video"><a class="h-{{location.id}} h-guide-tertiary" href="#/locations/{{progressNav.location.id}}">{{progressNav.location.choiceAction}} {{progressNav.location.choiceTitle}}</a></li>
+              <li ng-repeat="poi in progressNav.location.pointsOfInterest" ng-class="{completed: progressNav.location.hasVisited(poi.id), image: poi.mediaType == 'image', video: poi.mediaType == 'video'}" ng-cloak=""><a class="h-{{location.id}} h-guide-tertiary" href="" ng-click="showPoiModal(poi)">{{poi.name}}</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="help-container" ng-show="helpNav.active" ng-cloak="">
+        <h2 class="text-center">Help</h2>
+        <a href="" ng-click="helpNav.active = false">Close</a>
+      </div>
+
+      <div id="poiModal" class="reveal-modal" reveal-modal="pointOfInterestModal.active">
+        <h3>{{pointOfInterestModal.name}}</h3>
+        <img ng-show="pointOfInterestModal.poi.mediaType == 'image'" ng-src="{{pointOfInterestModal.poi.image}}">
+        <video ng-show="pointOfInterestModal.poi.mediaType == 'video'" id="poiVideo" video-reload="pointOfInterestModal.poi" class="video-js vjs-default-skin vjs-big-play-centered" controls="" preload="auto" width="100%" height="100%">
+        </video>
+        <a class="close-reveal-modal" ng-click="closePoiModal()">
+         <span class="visually-hidden">&#215;</span>
+        </a>
+      </div>
+
+      <div ng-class="{'one-open': primaryNav.active, 'two-open': secondaryNav.active, 'three-open': progressNav.location}" class="window-container" ng-click="shrinkMenu()">
+        <!-- Add your site or application content here -->
+        <div ng-view="" class="{{pageClass.value}}"></div>
+      </div>
+    </div>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
+     <script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-1184807-1');
+       ga('send', 'pageview');
+    </script>-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="bower_components/jquery/jquery.js"><\/script>')</script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+    <script>window.angular || document.write('<script src="bower_components/angular/angular.js"><\/script>')</script>
+
+        <script src="scripts/ab5452c9.modules.js"></script>
+      
+
+        <script type="text/javascript" charset="utf-8">
+        // mvp - if it is IE9 - the first line tests for IE9 - then fall back to flash
+        if(navigator.userAgent.indexOf("Trident/5")>-1){
+         // videojs.options.techOrder = ["flash"];
+         // videojs.options.flash.swf = "bower_components/video.js/video-js.swf";
+         videojs.options.preload = ["none"];
+        }
+        else if(navigator.userAgent.indexOf("Trident/6")>-1){
+          videojs.options.preload = ["none"];
+        }
+        else if(navigator.userAgent.indexOf("Trident/7")>-1){
+          videojs.options.preload = ["none"];
+        }
+
+        Modernizr.addTest('isiOS', function(){
+            return navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true : false
+        });
+
+        //usage
+        if (Modernizr.isiOS) {
+            $('html').addClass('ios');
+        }
+
+        </script>
+
+        <script src="scripts/3e2492d8.scripts.js"></script>
+		<!-- SDG -->
+</body>
+</html>

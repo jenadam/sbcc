@@ -1,0 +1,292 @@
+[
+  {
+    "id": "intro",
+    "name": "Campus Intro",
+    "choiceAction": "Visit The",
+    "choiceTitle": "Campus",
+    "coords": {
+      "lat": -25.5,
+      "lng": 38
+    },
+    "iconsize": {
+      "w": 64,
+      "h": 64
+    },
+    "bgVideo": {
+      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/intro.mp4",
+      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/intro.ogv"
+    },
+    "bgImage": "images/location-menu-intro.png",
+    "video": {
+      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/french-hill.mp4",
+      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/french-hill.ogv"
+    },
+    "image": "http://www.cui.edu/images/2011homepage/about_campus.jpg",
+    "icon": "images/intro-icon-map.png",
+    "iconRetina": "images/intro-icon-map@2x.png",
+    "pointsOfInterest": [
+      {"id": "001", "name": "Bike Tour", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/frenchhill/bikeride.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/frenchhill/bikeride.ogv"}},
+      {"id": "002", "name": "French Hill 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/frenchhill/french-hill-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/frenchhill/french-hill-360.ogv"}},
+      {"id": "003", "name": "Helicopter Fly By", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/frenchhill/helicopter-flyby.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/frenchhill/helicopter-flyby.ogv"}}
+    ],
+    "locationChoices": [
+      "sciencelabs",
+      "coffee"
+    ]
+  },
+  {
+    "id": "sciencelabs",
+    "name": "Science Labs",
+    "choiceAction": "Visit the",
+    "choiceTitle": "Science Labs",
+    "coords": {
+      "lat": -31,
+      "lng": 31
+    },
+    "iconsize": {
+      "w": 64,
+      "h": 64
+    },
+    "bgVideo": {
+      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/science-labs.mp4",
+      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/science-labs.ogv"
+    },
+    "bgImage": "images/location-menu-sciencelabs.png",
+    "video": {
+      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/science-labs.mp4",
+      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/science-labs.ogv"
+    },
+    "image": "http://www.cui.edu/images/2011homepage/about_campus.jpg",
+    "icon": "images/chemistry-icon-map.png",
+    "iconRetina": "images/chemistry-icon-map@2x.png",
+    "pointsOfInterest": [
+      {"id": "101", "name": "Equipment Tour", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/sciencelabs/equipment-tour.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/sciencelabs/equipment-tour.ogv"}},
+      {"id": "102", "name": "Advanced Synthesis Lab 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/sciencelabs/advanced-synthesis-lab-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/sciencelabs/advanced-synthesis-lab-360.ogv"}},
+      {"id": "103", "name": "Chromatography Lab 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/sciencelabs/chromatography-lab-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/sciencelabs/chromatography-lab-360.ogv"}},
+      {"id": "104", "name": "Spectroscopy Lab 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/sciencelabs/spectroscopy-lab-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/sciencelabs/spectroscopy-lab-360.ogv"}},
+      {"id": "105", "name": "Teaching Lab 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/sciencelabs/teaching-lab-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/sciencelabs/teaching-lab-360.ogv"}}
+    ],
+    "locationChoices": [
+      "coffee",
+      "autoshop"
+    ]
+  },
+  {
+    "id": "coffee",
+    "name": "Coffee Shop",
+    "choiceAction": "Grab some",
+    "choiceTitle": "Coffee",
+    "coords": {
+      "lat": -17.5,
+      "lng": 60.75
+    },
+    "iconsize": {
+      "w": 64,
+      "h": 64
+    },
+    "bgVideo": {
+      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/coffee-shop.mp4",
+      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/coffee-shop.ogv"
+    },
+    "bgImage": "images/location-menu-coffeeandclass.png",
+    "video": {
+      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/coffee-shop.mp4",
+      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/coffee-shop.ogv"
+    },
+    "image": "http://www.cui.edu/images/2011homepage/about_campus.jpg",
+    "icon": "images/coffeeshop-icon-map.png",
+    "iconRetina": "images/coffeeshop-icon-map@2x.png",
+    "pointsOfInterest": [
+      {"id": "201", "name": "Core: Experienced", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/coffeeshop/core1.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/coffeeshop/core1.ogv"}},
+      {"id": "202", "name": "Core: Explained", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/coffeeshop/core2.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/coffeeshop/core2.ogv"}},
+      {"id": "203", "name": "Core: In Depth", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/coffeeshop/core3.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/coffeeshop/core3.ogv"}},
+      {"id": "204", "name": "Emendare Timelapse", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/coffeeshop/emendare-timelapse.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/coffeeshop/emendare-timelapse.ogv"}},
+      {"id": "205", "name": "Emendare 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/coffeeshop/emendare-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/coffeeshop/emendare-360.ogv"}}
+    ],
+    "locationChoices": [
+      "sciencelabs",
+      "autoshop"
+    ]
+  },
+  {
+    "id": "autoshop",
+    "name": "Auto Shop",
+    "choiceAction": "Visit",
+    "choiceTitle": "Auto Shop",
+    "coords": {
+      "lat": -18,
+      "lng": 41
+    },
+    "iconsize": {
+      "w": 64,
+      "h": 64
+    },
+    "bgVideo": {
+      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/campus-center.mp4",
+      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/campus-center.ogv"
+    },
+    "bgImage": "images/location-menu-grimm.png",
+    "video": {
+      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/campus-center.mp4",
+      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/campus-center.ogv"
+    },
+    "image": "http://www.cui.edu/images/2011homepage/about_campus.jpg",
+    "icon": "images/autoshop-icon-map.png",
+    "iconRetina": "images/autoshop-icon-map@2x.png",
+    "pointsOfInterest": [
+      {"id": "301", "name": "Concordia Christmas", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/grimmhalllawn/concordia-christmas.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/grimmhalllawn/concordia-christmas.ogv"}},
+      {"id": "302", "name": "RYFO Concert", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/grimmhalllawn/ryfo-concert.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/grimmhalllawn/ryfo-concert.ogv"}},
+      {"id": "303", "name": "Amphitheatre 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/grimmhalllawn/amphitheatre-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/grimmhalllawn/amphitheatre-360.ogv"}},
+      {"id": "304", "name": "Grimm Hall Lawn 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/grimmhalllawn/grimm-hall-lawn-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/grimmhalllawn/grimm-hall-lawn-360.ogv"}}
+    ],
+    "locationChoices": [
+      "biketour",
+      "athletic_fields"
+    ]
+  },
+  {
+    "id": "biketour",
+    "name": "Bike Tour",
+    "choiceAction": "Go to",
+    "choiceTitle": "Bike Tour",
+    "coords": {
+      "lat": -24.5,
+      "lng": 17
+    },
+    "iconsize": {
+      "w": 64,
+      "h": 64
+    },
+    "bgVideo": {
+      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/chapel.mp4",
+      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/chapel.ogv"
+    },
+    "bgImage": "images/location-menu-chapel.png",
+    "video": {
+      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/chapel.mp4",
+      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/chapel.ogv"
+    },
+    "image": "http://www.cui.edu/images/2011homepage/about_campus.jpg",
+    "icon": "images/biketour-icon-map.png",
+    "iconRetina": "images/biketour-icon-map@2x.png",
+    "pointsOfInterest": [
+      {"id": "401", "name": "Grace Alone. Faith Alone.", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/grace-alone.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/grace-alone.ogv"}},
+      {"id": "402", "name": "CU Center 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/cu-center-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/cu-center-360.ogv"}},
+      {"id": "403", "name": "Good Shepherd Chapel Inside 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/good-shepherd-inside-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/good-shepherd-inside-360.ogv"}},
+      {"id": "404", "name": "Good Shepherd Chapel Outside 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/good-shepherd-outside-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/good-shepherd-outside-360.ogv"}}
+    ],
+    "locationChoices": [
+      "athletic_fields",
+      "cafeteria"
+    ]
+  },
+  {
+    "id": "athletic_fields",
+    "name": "La Playa Field",
+    "choiceAction": "Visit the",
+    "choiceTitle": "Field",
+    "coords": {
+      "lat": -28.5,
+      "lng": 57
+    },
+    "iconsize": {
+      "w": 64,
+      "h": 64
+    },
+    "bgVideo": {
+      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/athletic-fields.mp4",
+      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/athletic-fields.ogv"
+    },
+    "bgImage": "images/location-menu-athletic_fields.png",
+    "video": {
+      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/athletic-fields.mp4",
+      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/athletic-fields.ogv"
+    },
+    "image": "http://www.cui.edu/images/2011homepage/about_campus.jpg",
+    "icon": "images/fields-icon-map.png",
+    "iconRetina": "images/fields-icon-map@2x.png",
+    "pointsOfInterest": [
+      {"id": "501", "name": "24-Hour Wiffleball Game", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/wiffleball.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/wiffleball.ogv"}},
+      {"id": "502", "name": "Cheer Squad", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/cheer.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/cheer.ogv"}},
+      {"id": "503", "name": "Soccer Game", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/soccer-game.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/soccer-game.ogv"}},
+      {"id": "505", "name": "Softball Field 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/softball-field-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/softball-field-360.ogv"}},
+      {"id": "506", "name": "Track & Field", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/track-and-field.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/track-and-field.ogv"}},
+      {"id": "507", "name": "Baseball Field 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/baseball-field-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/baseball-field-360.ogv"}}
+    ],
+    "locationChoices": [
+      "biketour",
+      "cafeteria"
+    ]
+  },
+  {
+    "id": "cafeteria",
+    "name": "Cafeteria",
+    "choiceAction": "Eat some",
+    "choiceTitle": "Lunch",
+    "coords": {
+      "lat": -17.5,
+      "lng": 50
+    },
+    "iconsize": {
+      "w": 64,
+      "h": 64
+    },
+    "bgVideo": {
+      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/cafeteria.mp4",
+      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/cafeteria.ogv"
+    },
+    "bgImage": "images/location-menu-cafeteria.png",
+    "video": {
+      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/cafeteria.mp4",
+      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/cafeteria.ogv"
+    },
+    "image": "http://www.cui.edu/images/2011homepage/about_campus.jpg",
+    "icon": "images/cafe-icon-map.png",
+    "iconRetina": "images/cafe-icon-map@2x.png",
+    "pointsOfInterest": [
+      {"id": "601", "name": "Commuters' Eagle Lounge", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/cafeteria/eagle-lounge.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/cafeteria/eagle-lounge.ogv"}},
+      {"id": "602", "name": "Cafeteria 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/cafeteria/cafeteria-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/cafeteria/cafeteria-360.ogv"}},
+      {"id": "603", "name": "Cafeteria Check-in", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/cafeteria/cafeteria-checkin.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/cafeteria/cafeteria-checkin.ogv"}}
+    ],
+    "locationChoices": [
+      "residencehalls",
+      "beach"
+    ]
+  },
+  {
+    "id": "beach",
+    "name": "Beach/Off Campus",
+    "choiceAction": "See the",
+    "choiceTitle": "Beach",
+    "coords": {
+      "lat": -40,
+      "lng": 46
+    },
+    "iconsize": {
+      "w": 64,
+      "h": 64
+    },
+    "bgVideo": {
+      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/residence-halls.mp4",
+      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/residence-halls.ogv"
+    },
+    "bgImage": "images/location-menu-residencehalls.png",
+    "video": {
+      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/residence-halls.mp4",
+      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/residence-halls.ogv"
+    },
+    "image": "http://placekitten.com/200/300",
+    "icon": "images/beach-icon-map.png",
+    "iconRetina": "images/beach-icon-map@2x.png",
+    "pointsOfInterest": [
+      {"id": "701", "name": "Room Tour", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/room-tour.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/room-tour.ogv"}},
+      {"id": "702", "name": "Global Village", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/global-village.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/global-village.ogv"}},
+      {"id": "703", "name": "Lower Quads 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/lower-quads-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/lower-quads-360.ogv"}},
+      {"id": "704", "name": "Upper Quads 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/upper-quads-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/upper-quads-360.ogv"}}
+    ],
+    "locationChoices": [
+      "beach",
+      "cuarena"
+    ]
+  }
+]
