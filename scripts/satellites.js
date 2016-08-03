@@ -5646,7 +5646,12 @@ angular.module("cuiVtourAngularApp", ["ngCookies", "ngResource", "ngSanitize", "
     }).when("/locations/:id/choices", {
         templateUrl: "views/location_choices.html",
         controller: "LocationChoicesCtrl"
-    })
+    }).otherwise({
+        redirectTo: "/"
+    });
+}])
+.config(['$locationProvider', function($locationProvider){
+    $locationProvider.html5Mode(true).hashPrefix('!');
 }])
 .run(["$rootScope", "Location", "localStorageService", function(a, b, c) {
     b.query(function(b) {
@@ -5760,9 +5765,9 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
             crs: L.CRS.Simple
         }).setView([0, 0], 5),
 
-        a.mapMaxBounds = new L.LatLngBounds(a.map.unproject([0, 1792], 5), a.map.unproject([2560, 0], 5)),
+        a.mapMaxBounds = new L.LatLngBounds(a.map.unproject([0, 1538], 5), a.map.unproject([2048, 0], 5)),
         
-        L.tileLayer("sbcc-main-campus/{z}/{x}/{y}.png", {
+        L.tileLayer("schott-campus/{z}/{x}/{y}.png", {
             minZoom: 5,
             maxZoom: 5,
             bounds: a.mapMaxBounds,
@@ -5772,7 +5777,7 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
         }).addTo(a.map),
         a.map.setMaxBounds(a.mapMaxBounds),
 
-        a.mapCenter = a.map.unproject([1280, 896], 5),
+        a.mapCenter = a.map.unproject([1024, 768], 5),
         a.map.panTo(a.mapCenter),
 
         a.map.on("click", function() {
@@ -5852,7 +5857,7 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
                 j = a
             }
         }),
-        $("#main-container").append(b(j)(a));
+        $("body").append(b(j)(a));
         var k;
         $.ajax({
             url: "views/view_counts.html",
@@ -5862,7 +5867,7 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
                 k = a
             }
         }),
-        $("#main-container").append(b(k)(a));
+        $("body").append(b(k)(a));
 
         var l;
         $.ajax({
@@ -5873,7 +5878,7 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
                 l = a
             }
         }),
-        $("#main-container").append(b(l)(a));
+        $("body").append(b(l)(a));
         L.layerGroup(a.markerArr).addTo(a.map);
 
     });

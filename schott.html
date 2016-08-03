@@ -32,11 +32,7 @@
       <script src="https://use.typekit.net/vbi7eoa.js"></script>
       <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
-  <body>
-
-    <div class="satellite-links">
-      <a href="../schott.html">Schott Campus</a>
-    </div>
+  <body class="schott">
     <!--[if lt IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -48,7 +44,7 @@
 <!-- Testing Git -->
     <div id="main-container" ng-app="cuiVtourAngularApp">
       <header ng-class="{'open': primaryNav.active || secondaryNav.active || progressNav.location, 'back': secondaryNav.active || progressNav.location }">
-        <h1><a href="#/"><span class="visually-hidden"> </span></a></h1>
+        <h1><a href="/" target="_self"><span class="visually-hidden">Santa Barbara Community College - Virtual Tour</span></a></h1>
         <div ng-click="primaryNavToggle()" class="menu-activate">
         </div>
       </header>
@@ -56,7 +52,7 @@
         <nav class="primary-nav" ng-show="primaryNav.active" ng-cloak="">
           <ul class="no-bullet">
             <li><a href="" ng-click="activateProgress()"><i class="icon icon-progress"></i> <strong>View Guide</strong></a></li>
-			<li><a href="#/" ng-click="shrinkMenu()"><i class="icon icon-explore"></i> <strong>Explore Map</strong></a></li>
+			       <li><a href="#/" ng-click="shrinkMenu()"><i class="icon icon-explore"></i> <strong>Explore Map</strong></a></li>
             <!-- <li><a href="" ng-click="activateWatch()"><i class="icon icon-watch"></i> <strong>Watch</strong></a></li> -->
             <!-- <li><a href="" ng-click="helpNav.active = true"><i class="icon icon-help"></i> <strong>Help</strong></a></li> -->
           </ul>
@@ -119,11 +115,6 @@
         </nav>
       </div>
 
-      <div class="help-container" ng-show="helpNav.active" ng-cloak="">
-        <h2 class="text-center">Help</h2>
-        <a href="" ng-click="helpNav.active = false">Close</a>
-      </div>
-
       <div id="poiModal" class="reveal-modal" reveal-modal="pointOfInterestModal.active">
         <h3>{{pointOfInterestModal.name}}</h3>
         <img ng-show="pointOfInterestModal.poi.mediaType == 'image'" ng-src="{{pointOfInterestModal.poi.image}}">
@@ -135,10 +126,23 @@
       </div>
 
       <div ng-class="{'one-open': primaryNav.active, 'two-open': secondaryNav.active, 'three-open': progressNav.location}" class="window-container" ng-click="shrinkMenu()">
-        <!-- Add your site or application content here -->
-        <div ng-view="" class="{{pageClass.value}}"></div>
+
+        <div class="map-container" ng-controller="MainCtrl">
+          <div id="map"></div>
+        </div>      
       </div>
     </div>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
+     <script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-1184807-1');
+       ga('send', 'pageview');
+    </script>-->
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="bower_components/jquery/jquery.js"><\/script>')</script>
@@ -173,7 +177,7 @@
 
         </script>
 
-        <script src="scripts/3e2492d8.scripts.js"></script>
+        <script src="scripts/satellites.js"></script>
 		<!-- SDG -->
 </body>
 </html>
