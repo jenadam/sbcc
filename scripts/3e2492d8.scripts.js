@@ -5660,10 +5660,6 @@ angular.module("cuiVtourAngularApp", ["ngCookies", "ngResource", "ngSanitize", "
     a.pageClass = {
         value: ""
     },
-    a.welcomeView = {
-        firstLoad: !0,
-        active: !1
-    },
     a.Nav = {
         active: !1
     },
@@ -5749,9 +5745,6 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
     a.lastClicked = "",
     a.menuFadeTime = 2800,
     a.guideFadeTime = 0,
-    $("#welcome").css({
-        display: "none"
-    }),
     a.locations = d.query(function() {
 
         a.map = L.map("map", {
@@ -5929,17 +5922,7 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
     $(window).resize(function() {
         h = $(window).height(),
         f()
-    }),
-    setTimeout(function() {
-        $("#welcome").css({
-            display: "block"
-        }),
-        a.welcomeView.firstLoad && (a.welcomeView.active = !0,
-        a.welcomeView.firstLoad = !1,
-        a.$apply()),
-        $(".viewcounts").remove(),
-        $(".location-menus").remove()
-    }, a.menuFadeTime)
+    })
 }
 ]),
 angular.module("cuiVtourAngularApp").factory("Location", ["$resource", "$rootScope", function(a, b) {

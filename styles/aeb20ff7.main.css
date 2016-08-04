@@ -8832,10 +8832,11 @@ screen and (max-width:48em) and (min-resolution:1.3dppx) {
     width: 100%;
     background-color: #B72734;
     background: rgba(183, 39, 52, .85);
-    padding-top: 120px
+    padding-top: 120px;
+    display: none;
 }
 
-#welcome.ng-hide-add,
+/*#welcome.ng-hide-add,
 #welcome.ng-hide-remove {
     display: block!important
 }
@@ -8885,7 +8886,7 @@ screen and (max-width:48em) and (min-resolution:1.3dppx) {
 #welcome.ng-hide h2 {
     filter: alpha(Opacity=0);
     opacity: 0
-}
+}*/
 
 #welcome h2 {
     font-family: 'tenso', sans-serif;
@@ -9921,6 +9922,7 @@ h2.location-menus-text-center {
     -webkit-box-shadow: -8px 8px 0px 0px rgba(0,0,0,0.13);
     -moz-box-shadow: -8px 8px 0px 0px rgba(0,0,0,0.13);
     box-shadow: -8px 8px 0px 0px rgba(0,0,0,0.13);
+    display: none;
 }
 .satellite-links a {
     display: block;

@@ -136,35 +136,34 @@
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
     <script>window.angular || document.write('<script src="bower_components/angular/angular.js"><\/script>')</script>
 
-        <script src="scripts/ab5452c9.modules.js"></script>
-      
+    <script src="scripts/ab5452c9.modules.js"></script>
+  
 
-        <script type="text/javascript" charset="utf-8">
-        // mvp - if it is IE9 - the first line tests for IE9 - then fall back to flash
-        if(navigator.userAgent.indexOf("Trident/5")>-1){
-         // videojs.options.techOrder = ["flash"];
-         // videojs.options.flash.swf = "bower_components/video.js/video-js.swf";
-         videojs.options.preload = ["none"];
-        }
-        else if(navigator.userAgent.indexOf("Trident/6")>-1){
-          videojs.options.preload = ["none"];
-        }
-        else if(navigator.userAgent.indexOf("Trident/7")>-1){
-          videojs.options.preload = ["none"];
-        }
+    <script type="text/javascript" charset="utf-8">
+      // mvp - if it is IE9 - the first line tests for IE9 - then fall back to flash
+      if(navigator.userAgent.indexOf("Trident/5")>-1){
+       // videojs.options.techOrder = ["flash"];
+       // videojs.options.flash.swf = "bower_components/video.js/video-js.swf";
+       videojs.options.preload = ["none"];
+      }
+      else if(navigator.userAgent.indexOf("Trident/6")>-1){
+        videojs.options.preload = ["none"];
+      }
+      else if(navigator.userAgent.indexOf("Trident/7")>-1){
+        videojs.options.preload = ["none"];
+      }
 
-        Modernizr.addTest('isiOS', function(){
-            return navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true : false
-        });
+      Modernizr.addTest('isiOS', function(){
+          return navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true : false
+      });
 
-        //usage
-        if (Modernizr.isiOS) {
-            $('html').addClass('ios');
-        }
+      //usage
+      if (Modernizr.isiOS) {
+          $('html').addClass('ios');
+      }
+    </script>
 
-        </script>
-
-        <script src="scripts/satellites.js"></script>
+    <script src="scripts/satellites.js"></script>
 		<!-- SDG -->
 </body>
 </html>

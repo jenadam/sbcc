@@ -5650,9 +5650,6 @@ angular.module("cuiVtourAngularApp", ["ngCookies", "ngResource", "ngSanitize", "
         redirectTo: "/"
     });
 }])
-.config(['$locationProvider', function($locationProvider){
-    $locationProvider.html5Mode(true).hashPrefix('!');
-}])
 .run(["$rootScope", "Location", "localStorageService", function(a, b, c) {
     b.query(function(b) {
         a.locations = b
@@ -5939,8 +5936,8 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
         $("#welcome").css({
             display: "block"
         }),
-        a.welcomeView.firstLoad && (a.welcomeView.active = !0,
-        a.welcomeView.firstLoad = !1,
+        a.welcomeView.firstLoad && (a.welcomeView.active = false,
+        a.welcomeView.firstLoad = true,
         a.$apply()),
         $(".viewcounts").remove(),
         $(".location-menus").remove()

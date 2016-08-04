@@ -34,9 +34,6 @@
 </head>
   <body>
 
-    <div class="satellite-links">
-      <a href="../schott.html">Schott Campus</a>
-    </div>
     <!--[if lt IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -46,6 +43,33 @@
       <script src="bower_components/json3/lib/json3.min.js"></script>
     <![endif]-->
 <!-- Testing Git -->
+
+
+    <div id="welcome" class="text-center">
+      <div class="row">
+        <div class="large-5 columns large-centered">
+              <h2>Welcome <small>to the Santa Barbara Community&nbsp;College<br>Virtual&nbsp;Tour</small></h2>
+            <p>Explore our beautiful campus and experience what it is like to be a student at Santa Barbara Community College.</p>
+        </div>
+      </div>
+      
+    <div class="welcome-options row">
+      <div class="large-6 columns large-centered">
+        <div class="row">
+          <div class="large-5 columns large-offset-1">
+            <a href="#/locations/intro" ng-click="welcomeView.active = false" class="button h-welcome-guided-button">Begin Guided Tour<small>Follow our students through a day in the life.</small></a>
+          </div>
+          <div class="large-1 columns">
+            <span>Or</span>
+          </div>
+          <div class="large-5 columns">
+            <a href="" ng-click="welcomeView.active = false" class="button h-welcome-explore-button">Explore the Map<small>Pick a point on the map that interests you.</small></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
     <div id="main-container" ng-app="cuiVtourAngularApp">
       <header ng-class="{'open': primaryNav.active || secondaryNav.active || progressNav.location, 'back': secondaryNav.active || progressNav.location }">
         <h1><a href="#/"><span class="visually-hidden"> </span></a></h1>
@@ -140,6 +164,10 @@
       </div>
     </div>
 
+    <div class="satellite-links">
+      <a href="../schott.html">Schott Campus</a>
+    </div>
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="bower_components/jquery/jquery.js"><\/script>')</script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
@@ -174,6 +202,19 @@
         </script>
 
         <script src="scripts/3e2492d8.scripts.js"></script>
+        <script type="text/javascript">
+          $(window).load(function() {
+            
+            $(".satellite-links").delay(3000).fadeIn(500);
+
+            if(sessionStorage.getItem('welcomeShow') != 'shown') {
+              $("#welcome").delay(1000).fadeIn();
+              sessionStorage.setItem('welcomeShow','shown')
+            }
+
+          });
+        </script>
+
 		<!-- SDG -->
 </body>
 </html>
