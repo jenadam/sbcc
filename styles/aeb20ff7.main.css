@@ -9918,20 +9918,31 @@ h2.location-menus-text-center {
     position: absolute;
     bottom: 60px;
     right: 50px;
+    width: 400px;
     z-index: 6999;
-    -webkit-box-shadow: -8px 8px 0px 0px rgba(0,0,0,0.13);
-    -moz-box-shadow: -8px 8px 0px 0px rgba(0,0,0,0.13);
-    box-shadow: -8px 8px 0px 0px rgba(0,0,0,0.13);
     display: none;
 }
+.satellite-links div {
+    float: left;
+    width: 46%;
+    -webkit-box-shadow: -7px 7px 0px 0px rgba(0,0,0,0.13);
+    -moz-box-shadow: -7px 7px 0px 0px rgba(0,0,0,0.13);
+    box-shadow: -7px 7px 0px 0px rgba(0,0,0,0.13);
+}
+.satellite-links div:nth-of-type(2) {
+    margin-left: 4%;
+}  
+
 .satellite-links a {
     display: block;
     background: #A2CE9E;
-    padding: 1em;
+    padding: 0.75em 0;
+    width: 100%;
     border:8px solid #fff;
     color: #fff;
-    font-size: 26px;   
+    font-size: 25px;   
     font-weight: 700; 
+    text-align: center;
 }
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
