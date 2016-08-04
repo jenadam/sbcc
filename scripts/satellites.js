@@ -5765,7 +5765,7 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
             crs: L.CRS.Simple
         }).setView([0, 0], 5),
 
-        a.mapMaxBounds = new L.LatLngBounds(a.map.unproject([0, 1538], 5), a.map.unproject([2048, 0], 5)),
+        a.mapMaxBounds = new L.LatLngBounds(a.map.unproject([0, 1536], 5), a.map.unproject([2048, 0], 5)),
         
         L.tileLayer("schott-campus/{z}/{x}/{y}.png", {
             minZoom: 5,
@@ -5790,10 +5790,6 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
                 iconUrl: a.locations[c].icon,
                 iconRetinaUrl: a.locations[c].iconRetina,
                 iconSize: [a.locations[c].iconsize.w, a.locations[c].iconsize.h],
-//                shadowUrl: "images/map-icon-shadow.png",
-//                shadowRetinaUrl: "images/map-icon-shadow@2x.png",
-//                shadowSize: [105, 79],
-//                shadowAnchor: [52, 20],
                 labelAnchor: [18, 0]
             })
               , e = L.marker([a.locations[c].coords.lat, a.locations[c].coords.lng], {
@@ -5812,7 +5808,7 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
                 $("#location-menus-parent-" + c.id).fadeIn("slow");
 
 
-                var d = L.marker([-25.5, 38])
+                var d = L.marker([-20, 32])
                   , e = new L.featureGroup([b.target, d]);
                 Environment.isMobile() | $(window).width() < $(window).height() ? a.map.panTo([c.coords.lat + 1e-4, c.coords.lng - 7e-4], {
                     duration: "1.5",
@@ -5884,7 +5880,7 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
     });
 
 
-    var g = e("api/flags.json", {}, {
+    var g = e("api/flags-schott.json", {}, {
         query: {
             method: "GET",
             isArray: !0,
@@ -5952,7 +5948,7 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
 }
 ]),
 angular.module("cuiVtourAngularApp").factory("Location", ["$resource", "$rootScope", function(a, b) {
-    var c = a("api/locations.json", {}, {
+    var c = a("api/locations-schott.json", {}, {
         query: {
             method: "GET",
             isArray: !0,
