@@ -9,16 +9,5 @@
 	"type": "flag",
 	"description": "The Mac Dougall Administration Center houses the administrative offices of the college, Information Desk, Occupational Education, and Foundation for SBCC offices.",
     "bgImage": "images/flag-menu-goodshepherd.png"
-  },
-  {
-    "id": "studentservices",
-    "name": "Student Services",
-    "coords": {
-      "lat": -14,
-      "lng": 45
-    },
-	"type": "flag",
-	"description": "The Student Services Building houses Admissions & Records, Academic Counseling, Assessment, Career Center, Disabled Students Programs and Services (DSPS), Enrollment Services, Extended Opportunity Programs and Services (EOPS), Financial Aid, Student Health Services, Human Resources, and the Transfer Center.",
-    "bgImage": "images/flag-menu-cuarena.png"
   }
   ]

@@ -9915,7 +9915,20 @@ h2.location-menus-text-center {
 
 .satellite-links {
     position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: 99999;
+    bottom: 60px;
+    right: 50px;
+    z-index: 6999;
+    -webkit-box-shadow: -8px 8px 0px 0px rgba(0,0,0,0.13);
+    -moz-box-shadow: -8px 8px 0px 0px rgba(0,0,0,0.13);
+    box-shadow: -8px 8px 0px 0px rgba(0,0,0,0.13);
+}
+.satellite-links a {
+    display: block;
+    background: #A2CE9E;
+    padding: 1em;
+    border:8px solid #fff;
+    color: #fff;
+    font-size: 26px;   
+    font-weight: 700; 
+
 }

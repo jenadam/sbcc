@@ -5661,7 +5661,7 @@ angular.module("cuiVtourAngularApp", ["ngCookies", "ngResource", "ngSanitize", "
         value: ""
     },
     a.welcomeView = {
-        firstLoad: !1,
+        firstLoad: !0,
         active: !1
     },
     a.Nav = {
@@ -5785,10 +5785,6 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
                 iconUrl: a.locations[c].icon,
                 iconRetinaUrl: a.locations[c].iconRetina,
                 iconSize: [a.locations[c].iconsize.w, a.locations[c].iconsize.h],
-//                shadowUrl: "images/map-icon-shadow.png",
-//                shadowRetinaUrl: "images/map-icon-shadow@2x.png",
-//                shadowSize: [105, 79],
-//                shadowAnchor: [52, 20],
                 labelAnchor: [18, 0]
             })
               , e = L.marker([a.locations[c].coords.lat, a.locations[c].coords.lng], {
