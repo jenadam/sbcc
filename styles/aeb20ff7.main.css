@@ -7302,7 +7302,7 @@ button.focus {
     left: 90px;
     *zoom: 1;
     z-index: 8000;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .nav-container:before,
@@ -9932,5 +9932,8 @@ h2.location-menus-text-center {
     color: #fff;
     font-size: 26px;   
     font-weight: 700; 
+}
 
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
 }
