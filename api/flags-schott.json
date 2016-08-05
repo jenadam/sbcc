@@ -1,13 +1,46 @@
 [
   {
-    "id": "administration",
-    "name": "Administration",
+    "id": "ceramicslab",
+    "name": "Ceramics Lab",
     "coords": {
-      "lat": -20,
-      "lng": 32
+      "lat": -16.25,
+      "lng": 19.5
     },
 	"type": "flag",
-	"description": "The Mac Dougall Administration Center houses the administrative offices of the college, Information Desk, Occupational Education, and Foundation for SBCC offices.",
+	"description": "Ceramics Lab",
+    "bgImage": "images/flag-menu-goodshepherd.png"
+  },
+  {
+    "id": "culinarylab",
+    "name": "Culinary Lab",
+    "coords": {
+      "lat": -17.5,
+      "lng": 23
+    },
+  "type": "flag",
+  "description": "Culinary Lab",
+    "bgImage": "images/flag-menu-goodshepherd.png"
+  },
+  {
+    "id": "computerlab",
+    "name": "Computer Lab",
+    "coords": {
+      "lat": -25,
+      "lng": 20
+    },
+  "type": "flag",
+  "description": "Computer Lab",
+    "bgImage": "images/flag-menu-goodshepherd.png"
+  },
+  {
+    "id": "tannahill",
+    "name": "Tannahill Auditorium",
+    "coords": {
+      "lat": -27,
+      "lng": 30
+    },
+  "type": "flag",
+  "description": "Tannahill Auditorium",
     "bgImage": "images/flag-menu-goodshepherd.png"
   }
-  ]
+]

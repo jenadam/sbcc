@@ -5877,7 +5877,7 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
     });
 
 
-    var g = e("api/flags-schott.json", {}, {
+    var g = e("api/flags-wake.json", {}, {
         query: {
             method: "GET",
             isArray: !0,
@@ -5945,7 +5945,7 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
 }
 ]),
 angular.module("cuiVtourAngularApp").factory("Location", ["$resource", "$rootScope", function(a, b) {
-    var c = a("api/locations-schott.json", {}, {
+    var c = a("api/locations-wake.json", {}, {
         query: {
             method: "GET",
             isArray: !0,

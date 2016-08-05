@@ -77,17 +77,6 @@
     "bgImage": "images/flag-menu-cucenter.png"
   },
   {
-    "id": "earthbiologicalsciences",
-    "name": "Earth and Biological Sciences",
-    "coords": {
-      "lat": -19.5,
-      "lng": 47.5
-    },
-	"type": "flag",
-	"description": "The Earth & Biological Sciences building houses the department offices for these subjects.",
-    "bgImage": "images/flag-menu-libraryarts.png"
-  },
-  {
     "id": "eastcampusclassrooms",
     "name": "East Campus Classrooms",
     "coords": {

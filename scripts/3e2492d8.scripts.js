@@ -5796,7 +5796,7 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
                 $("#location-menus-parent-" + c.id).fadeIn("slow");
 
 
-                var d = L.marker([-25.5, 38])
+                var d = L.marker([-24, 39.75])
                   , e = new L.featureGroup([b.target, d]);
                 Environment.isMobile() | $(window).width() < $(window).height() ? a.map.panTo([c.coords.lat + 1e-4, c.coords.lng - 7e-4], {
                     duration: "1.5",
@@ -5882,7 +5882,6 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
               , d = L.marker([a.flags[b].coords.lat, a.flags[b].coords.lng], {
                 index: b,
                 icon: L.letterIcon(c, {
-//                    radius: 30,
                     iconSize: [24, 24]
                 }),
                 clickable: !0,

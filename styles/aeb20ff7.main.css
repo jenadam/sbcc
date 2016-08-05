@@ -9944,7 +9944,23 @@ h2.location-menus-text-center {
     font-weight: 700; 
     text-align: center;
 }
-
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important;
+}
+.satellite .flag-description-img {
+    display: none;
+}
+.satellite .flag-description {
+    top: -15px;
+}
+.satellite .flag-description-text {
+    padding: 10px 20px;
+}
+.satellite .flag-description-text p {
+    font-family: tenso, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.satellite .flag-description-tip-container {
+    top: 8px;
 }

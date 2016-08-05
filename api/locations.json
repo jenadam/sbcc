@@ -5,8 +5,8 @@
     "choiceAction": "Visit The",
     "choiceTitle": "Campus",
     "coords": {
-      "lat": -25.5,
-      "lng": 38
+      "lat": -25.25,
+      "lng": 38.25
     },
     "iconsize": {
       "w": 64,
@@ -40,8 +40,8 @@
     "choiceAction": "Visit the",
     "choiceTitle": "Science Labs",
     "coords": {
-      "lat": -31,
-      "lng": 31
+      "lat": -20.5,
+      "lng": 45.25
     },
     "iconsize": {
       "w": 64,
