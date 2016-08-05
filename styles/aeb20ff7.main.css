@@ -9944,9 +9944,6 @@ h2.location-menus-text-center {
     font-weight: 700; 
     text-align: center;
 }
-[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
-  display: none !important;
-}
 .satellite .flag-description-img {
     display: none;
 }

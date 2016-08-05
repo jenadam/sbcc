@@ -76,8 +76,8 @@
         <div ng-click="primaryNavToggle()" class="menu-activate">
         </div>
       </header>
-      <div ng-class="{'one-open': primaryNav.active, 'two-open': secondaryNav.active, 'three-open': progressNav.location}" class="nav-container ng-cloak" ng-show="Nav.active">
-        <nav class="primary-nav ng-cloak" ng-show="primaryNav.active">
+      <div ng-class="{'one-open': primaryNav.active, 'two-open': secondaryNav.active, 'three-open': progressNav.location}" class="nav-container" ng-show="Nav.active" ng-cloak="">
+        <nav class="primary-nav" ng-show="primaryNav.active" ng-cloak="">
           <ul class="no-bullet">
             <li><a href="" ng-click="activateProgress()"><i class="icon icon-progress"></i> <strong>View Guide</strong></a></li>
 			<li><a href="#/" ng-click="shrinkMenu()"><i class="icon icon-explore"></i> <strong>Explore Map</strong></a></li>
@@ -97,20 +97,20 @@
               <span class="hashtag">#sbccvirtualtour</span>
           </div>
         </nav>
-        <nav class="secondary-nav ng-cloak" ng-show="secondaryNav.active" ng-swipe-right="swipePrimary()">
+        <nav class="secondary-nav" ng-show="secondaryNav.active" ng-swipe-right="swipePrimary()" ng-cloak="">
           <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
           <div class="viewport">
             <div class="overview">
               <div class="tour-nav" ng-show="progressNav.active">
                 <h2 class="text-center">The Tour</h2>
                 <ul class="no-bullet progress-nav">
-                  <li ng-repeat="location in locations" class="{{location.id}} ng-cloak" ng-class="{'active': location.id==progressNav.location.id, 'visited': location.hasVisited()}">
+                  <li ng-repeat="location in locations" class="{{location.id}}" ng-class="{'active': location.id==progressNav.location.id, 'visited': location.hasVisited()}" ng-cloak="">
                     <a class="h-{{location.id}} h-guide-secondary" href="" ng-click="progressNav.location = location">
                       <i class="icon location-icon"></i>
                       <h3>{{location.name}}</h3>
                       <p>{{location.pointsOfInterest.length}} Points of Interest</p>
                       <ul class="inline-list poi-list">
-                        <li ng-repeat="poi in location.pointsOfInterest" ng-class="{completed: location.hasVisited(poi.id)}" class="ng-cloak">{{poi.name}}</li>
+                        <li ng-repeat="poi in location.pointsOfInterest" ng-class="{completed: location.hasVisited(poi.id)}" ng-cloak="">{{poi.name}}</li>
                       </ul>
                     </a>
                     <div class="secondary-indicator"></div>
@@ -120,7 +120,7 @@
               <div class="watch-nav" ng-show="watchNav.active">
                 <h2 class="text-center">Watch</h2>
                 <ul class="no-bullet watch-list">
-                  <li ng-repeat="location in locations" class="{{location.id}} ng-cloak" ng-class="{'visited': location.hasVisited()}">
+                  <li ng-repeat="location in locations" class="{{location.id}}" ng-class="{'visited': location.hasVisited()}" ng-cloak="">
                     <a href="#/locations/{{location.id}}" ng-click="watchNav.location = location">
                       <i class="icon location-icon"></i>
                       <h3><span>{{location.name}}</span></h3>
@@ -132,7 +132,7 @@
             </div>
           </div>
         </nav>
-        <nav class="tertiary-nav ng-cloak" ng-show="progressNav.location">
+        <nav class="tertiary-nav" ng-show="progressNav.location" ng-cloak="">
           <div class="tour-secondary-nav" ng-class="progressNav.location.id">
             <h2 class="text-center">{{progressNav.location.name}}</h2>
             <ul class="no-bullet tour-secondary-list">
@@ -143,7 +143,7 @@
         </nav>
       </div>
 
-      <div class="help-container ng-cloak" ng-show="helpNav.active">
+      <div class="help-container" ng-show="helpNav.active" ng-cloak="">
         <h2 class="text-center">Help</h2>
         <a href="" ng-click="helpNav.active = false">Close</a>
       </div>
