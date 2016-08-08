@@ -9,3 +9,28 @@
   "description": "The Earth & Biological Sciences building houses the department offices for these subjects.",
     "bgImage": "images/flag-menu-libraryarts.png"
   },
+
+
+  {
+    "id": "marinediving",
+    "name": "Marine Diving Technology Department",
+    "coords": {
+      "lat": -20.5,
+      "lng": 36
+    },
+  "type": "flag",
+  "description": "Marine Diving Technology Department is located here.",
+    "bgImage": "images/flag-menu-beta.png"
+  },
+
+    {
+    "id": "humanities",
+    "name": "Humanities",
+    "coords": {
+      "lat": -14.25,
+      "lng": 54
+    },
+  "type": "flag",
+  "description": "The Humanities building houses the Atkinson Art Gallery and Humanities offices.",
+    "bgImage": "images/flag-menu-upperquads.png"
+  },
