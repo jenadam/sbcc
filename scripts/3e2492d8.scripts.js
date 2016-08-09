@@ -5824,13 +5824,13 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
             var h = '<div class="viewcount-parents" id="viewcount-parent-' + a.locations[c].id + '"></div>'
               , i = L.marker([a.locations[c].coords.lat, a.locations[c].coords.lng], {
                 icon: L.letterIcon(h, {
-                    radius: 9
-                }),
-                clickable: !0,
+                   radius: 9
+               }),
+               clickable: !0,
                 zIndexOffset: 1
             });
-            a.markerArr.push(i),
-            setTimeout("$('#' + 'viewcount-' + '" + a.locations[c].id + "').appendTo('#' + 'viewcount-parent-' + '" + a.locations[c].id + "');", 100)
+ //           a.markerArr.push(i),
+ //          setTimeout("$('#' + 'viewcount-' + '" + a.locations[c].id + "').appendTo('#' + 'viewcount-parent-' + '" + a.locations[c].id + "');", 100)
         }
         var j;
         $.ajax({
@@ -5842,16 +5842,16 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
             }
         }),
         $("#main-container").append(b(j)(a));
-        var k;
-        $.ajax({
-            url: "views/view_counts.html",
-            type: "get",
-            async: !1,
-            success: function(a) {
-                k = a
-            }
-        }),
-        $("#main-container").append(b(k)(a));
+//        var k;
+//        $.ajax({
+//            url: "views/view_counts.html",
+//            type: "get",
+//            async: !1,
+//           success: function(a) {
+//               k = a
+ //           }
+ //       }),
+ //       $("#main-container").append(b(k)(a));
 
         var l;
         $.ajax({
