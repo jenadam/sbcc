@@ -7081,7 +7081,8 @@ button.focus {
 #main-container {
     width: 100%;
     height: 100%;
-    *zoom: 1
+    *zoom: 1;
+    position: relative;
 }
 
 #main-container:before,
@@ -7101,10 +7102,10 @@ button.focus {
     left: 0;
     width: 100%;
     height: 100%;
-    overflow: hidden
+    overflow: hidden;
 }
 
-#main-container .window-container>div {
+#main-container .window-container > div:nth-of-type(1) {
     width: 100%;
     height: 100%
 }
@@ -7135,7 +7136,7 @@ button.focus {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1
+    z-index: 7000
 }
 
 .page-location.ng-enter,
@@ -7161,7 +7162,7 @@ button.focus {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 100
+    z-index: 7000
 }
 
 .page-choices .choice1,
@@ -7532,7 +7533,7 @@ button.focus {
     animation: fade-in-left 2.2s 1
 }
 
-.tour-nav.ng-hide-remove .progress-nav li.cafeteria {
+.tour-nav.ng-hide-remove .progress-nav li.culinaryarts {
     -webkit-animation: fade-in-left 2.4s 1;
     animation: fade-in-left 2.4s 1
 }
@@ -7596,7 +7597,7 @@ button.focus {
     animation: fade-in-left 2.2s 1
 }
 
-.watch-nav.ng-hide-remove .watch-list li.cafeteria {
+.watch-nav.ng-hide-remove .watch-list li.culinaryarts {
     -webkit-animation: fade-in-left 2.4s 1;
     animation: fade-in-left 2.4s 1
 }
@@ -7695,7 +7696,7 @@ button.focus {
     background: rgba(235, 183, 0, .75)
 }
 
-.watch-list li.cafeteria h3 {
+.watch-list li.culinaryarts h3 {
     background-color: #5b195e;
     background: rgba(91, 25, 94, .75)
 }
@@ -7713,12 +7714,9 @@ button.focus {
     background-color: #c13828;
     background: rgba(193, 56, 40, .75)
 }
-
-
 .progress-nav {
     margin-top: 40px
 }
-
 .progress-nav>li {
     padding: 0 45px 0 25px;
     position: relative;
@@ -7731,7 +7729,7 @@ button.focus {
     text-transform: uppercase;
     color: #333;
     line-height: 1em;
-    margin: 0;
+    margin: 10px 0 0;
     padding-top: 3px;
 }
 
@@ -7774,7 +7772,7 @@ button.focus {
 }
 
 .progress-nav>li p {
-    margin-bottom: .3125em
+    display: none;
 }
 
 .progress-nav>li.visited h3 {
@@ -7905,7 +7903,7 @@ button.focus {
     }
 }
 
-.progress-nav>li.cafeteria .icon {
+.progress-nav>li.culinaryarts .icon {
     background: url(../images/cafe-icon-small.png) no-repeat 0 0
 }
 
@@ -7914,7 +7912,7 @@ button.focus {
 (-webkit-min-device-pixel-ratio:1.3),
 (min-device-pixel-ratio:1.3),
 (min-resolution:1.3dppx) {
-    .progress-nav>li.cafeteria .icon {
+    .progress-nav>li.culinaryarts .icon {
         background-image: url(../images/cafe-icon-small@2x.png);
         background-size: 60px 60px
     }
@@ -7959,7 +7957,7 @@ button.focus {
 }
 
 .poi-list {
-    display: inline-block;
+    display: none;
     padding: 6px 0 4px;
 }
 
@@ -8458,12 +8456,12 @@ screen and (max-width:48em) and (min-resolution:1.3dppx) {
     }
 }
 
-#choices-container .choice.cafeteria .choice-content-container {
+#choices-container .choice.culinaryarts .choice-content-container {
     background-color: #5b195e;
     background: rgba(91, 25, 94, .75)
 }
 
-#choices-container .choice.cafeteria .choice-content-container i {
+#choices-container .choice.culinaryarts .choice-content-container i {
     background: url(../images/cafe-icon-map.png) no-repeat
 }
 
@@ -8472,14 +8470,14 @@ screen and (max-width:48em) and (min-resolution:1.3dppx) {
 (-webkit-min-device-pixel-ratio:1.3),
 (min-device-pixel-ratio:1.3),
 (min-resolution:1.3dppx) {
-    #choices-container .choice.cafeteria .choice-content-container i {
+    #choices-container .choice.culinaryarts .choice-content-container i {
         background-image: url(../images/cafe-icon-map@2x.png);
         background-size: 80px 80px
     }
 }
 
 @media screen and (max-width:48em) {
-    #choices-container .choice.cafeteria .choice-content-container {
+    #choices-container .choice.culinaryarts .choice-content-container {
         background-color: #5b195e
     }
 }
@@ -8489,7 +8487,7 @@ screen and (max-width:48em) and (-o-min-device-pixel-ratio:2.6 / 2),
 screen and (max-width:48em) and (-webkit-min-device-pixel-ratio:1.3),
 screen and (max-width:48em) and (min-device-pixel-ratio:1.3),
 screen and (max-width:48em) and (min-resolution:1.3dppx) {
-    #choices-container .choice.cafeteria .choice-content-container i {
+    #choices-container .choice.culinaryarts .choice-content-container i {
         background-image: url(../images/cafe-icon-map@2x.png);
         background-size: 60px 60px
     }

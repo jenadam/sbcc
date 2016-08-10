@@ -5987,9 +5987,6 @@ angular.module("cuiVtourAngularApp").controller("LocationCtrl", ["$scope", "$loc
         a.location ? (a.mainVideo.player.src([{
             type: "video/mp4",
             src: a.location.video.mp4
-        }, {
-            type: "video/ogg",
-            src: a.location.video.ogv
         }]),
         a.mainVideo.player.play(),
         a.isMobile || $(".vjs-control-bar").css({
@@ -6094,7 +6091,7 @@ angular.module("cuiVtourAngularApp").directive("locationChoice", ["Location", "$
                     id: c.locationId
                 });
                 var f = "";
-                b.isMobile || (f = '<video id="choice-video-' + c.location.id + '" class="video-js vjs-default-skin vjs-big-play-centered"loop preload="auto" width="100%" height="100%"><source src="' + c.location.bgVideo.mp4 + '" type="video/mp4" /><source src="' + c.location.bgVideo.ogv + '" type="video/ogg" /></video>'),
+                b.isMobile || (f = '<video id="choice-video-' + c.location.id + '" class="video-js vjs-default-skin vjs-big-play-centered"loop preload="auto" width="100%" height="100%"><source src="' + c.location.bgVideo.mp4 + '" type="video/mp4" /></video>'),
                 d.replaceWith('<div class="choice' + c.index + ' text-center"><div class="choice ' + c.location.id + '"><a href="#/locations/' + c.location.id + '" class="h-' + c.location.id + ' h-choice-panel"><div class="choice-video-container">' + f + '</div><div class="choice-content-container"><i class="icon"></i><h2><span>' + c.location.choiceAction + "</span> " + c.location.choiceTitle + '</h2><a href="#/locations/' + c.location.id + '" class="button h-' + c.location.id + ' h-choice-button">Continue</a></div></a></div></div>'),
                 b.isMobile || (c.player = videojs("choice-video-" + c.location.id),
                 e(),
@@ -6165,9 +6162,6 @@ angular.module("cuiVtourAngularApp").directive("videoReload", function() {
                 a.player.src([{
                     type: "video/mp4",
                     src: d.video.mp4
-                }, {
-                    type: "video/ogg",
-                    src: d.video.ogv
                 }]),
                 a.player.play(),
                 a.isMobile || $(".vjs-control-bar").css({

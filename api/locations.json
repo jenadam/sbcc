@@ -13,21 +13,22 @@
       "h": 64
     },
     "bgVideo": {
-      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/intro.mp4",
-      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/intro.ogv"
+      "mp4": "https://player.vimeo.com/external/178072092.hd.mp4?s=01477322e34e720b5385c6038eb20d9fb1171b50&profile_id=174"
     },
     "bgImage": "images/location-menu-intro.png",
     "video": {
-      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/french-hill.mp4",
-      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/french-hill.ogv"
+      "mp4": "https://player.vimeo.com/external/178072092.hd.mp4?s=01477322e34e720b5385c6038eb20d9fb1171b50&profile_id=174"
     },
     "image": "http://www.cui.edu/images/2011homepage/about_campus.jpg",
     "icon": "images/intro-icon-map.png",
     "iconRetina": "images/intro-icon-map@2x.png",
     "pointsOfInterest": [
-      {"id": "001", "name": "Bike Tour", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/frenchhill/bikeride.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/frenchhill/bikeride.ogv"}},
-      {"id": "002", "name": "French Hill 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/frenchhill/french-hill-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/frenchhill/french-hill-360.ogv"}},
-      {"id": "003", "name": "Helicopter Fly By", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/frenchhill/helicopter-flyby.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/frenchhill/helicopter-flyby.ogv"}}
+      {
+        "id": "001", "name": "Intro", "mediaType": "video", "image": "", 
+        "video": {
+          "mp4": "https://player.vimeo.com/external/178072092.hd.mp4?s=01477322e34e720b5385c6038eb20d9fb1171b50&profile_id=174"
+        }
+      }
     ],
     "locationChoices": [
       "sciencelabs",
@@ -36,35 +37,29 @@
   },
   {
     "id": "sciencelabs",
-    "name": "Science Labs",
+    "name": "Physical Science",
     "choiceAction": "Visit the",
-    "choiceTitle": "Science Labs",
+    "choiceTitle": "Physical Science buildings",
     "coords": {
-      "lat": -20.5,
-      "lng": 45.25
+      "lat": -16.75,
+      "lng": 46
     },
     "iconsize": {
       "w": 64,
       "h": 64
     },
     "bgVideo": {
-      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/science-labs.mp4",
-      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/science-labs.ogv"
+      "mp4": "https://player.vimeo.com/external/178087950.hd.mp4?s=b9459be687794e87f121e16163d5c3b451bba722&profile_id=174"
     },
     "bgImage": "images/location-menu-sciencelabs.png",
     "video": {
-      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/science-labs.mp4",
-      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/science-labs.ogv"
+      "mp4": "https://player.vimeo.com/external/178087950.hd.mp4?s=b9459be687794e87f121e16163d5c3b451bba722&profile_id=174"
     },
     "image": "http://www.cui.edu/images/2011homepage/about_campus.jpg",
     "icon": "images/chemistry-icon-map.png",
     "iconRetina": "images/chemistry-icon-map@2x.png",
     "pointsOfInterest": [
-      {"id": "101", "name": "Equipment Tour", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/sciencelabs/equipment-tour.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/sciencelabs/equipment-tour.ogv"}},
-      {"id": "102", "name": "Advanced Synthesis Lab 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/sciencelabs/advanced-synthesis-lab-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/sciencelabs/advanced-synthesis-lab-360.ogv"}},
-      {"id": "103", "name": "Chromatography Lab 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/sciencelabs/chromatography-lab-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/sciencelabs/chromatography-lab-360.ogv"}},
-      {"id": "104", "name": "Spectroscopy Lab 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/sciencelabs/spectroscopy-lab-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/sciencelabs/spectroscopy-lab-360.ogv"}},
-      {"id": "105", "name": "Teaching Lab 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/sciencelabs/teaching-lab-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/sciencelabs/teaching-lab-360.ogv"}}
+      {"id": "101", "name": "Physical Science", "mediaType": "video", "image": "", "video": {"mp4": "https://player.vimeo.com/external/178087950.hd.mp4?s=b9459be687794e87f121e16163d5c3b451bba722&profile_id=174"}}
     ],
     "locationChoices": [
       "coffee",
@@ -73,35 +68,29 @@
   },
   {
     "id": "coffee",
-    "name": "Coffee Shop",
+    "name": "West Campus / Cafe",
     "choiceAction": "Grab some",
     "choiceTitle": "Coffee",
     "coords": {
-      "lat": -17.5,
-      "lng": 60.75
+      "lat": -31.5,
+      "lng": 26
     },
     "iconsize": {
       "w": 64,
       "h": 64
     },
     "bgVideo": {
-      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/coffee-shop.mp4",
-      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/coffee-shop.ogv"
+      "mp4": "https://player.vimeo.com/external/178083384.hd.mp4?s=738ca4e3389f1d21fa43a61a60c4a56e16ff71b1&profile_id=174"
     },
     "bgImage": "images/location-menu-coffeeandclass.png",
     "video": {
-      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/coffee-shop.mp4",
-      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/coffee-shop.ogv"
+      "mp4": "https://player.vimeo.com/external/178083384.hd.mp4?s=738ca4e3389f1d21fa43a61a60c4a56e16ff71b1&profile_id=174"
     },
     "image": "http://www.cui.edu/images/2011homepage/about_campus.jpg",
     "icon": "images/coffeeshop-icon-map.png",
     "iconRetina": "images/coffeeshop-icon-map@2x.png",
     "pointsOfInterest": [
-      {"id": "201", "name": "Core: Experienced", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/coffeeshop/core1.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/coffeeshop/core1.ogv"}},
-      {"id": "202", "name": "Core: Explained", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/coffeeshop/core2.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/coffeeshop/core2.ogv"}},
-      {"id": "203", "name": "Core: In Depth", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/coffeeshop/core3.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/coffeeshop/core3.ogv"}},
-      {"id": "204", "name": "Emendare Timelapse", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/coffeeshop/emendare-timelapse.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/coffeeshop/emendare-timelapse.ogv"}},
-      {"id": "205", "name": "Emendare 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/coffeeshop/emendare-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/coffeeshop/emendare-360.ogv"}}
+      {"id": "201", "name": "West Campus / Cafe", "mediaType": "video", "image": "", "video": {"mp4": "https://player.vimeo.com/external/178083384.hd.mp4?s=738ca4e3389f1d21fa43a61a60c4a56e16ff71b1&profile_id=174"}}
     ],
     "locationChoices": [
       "sciencelabs",
@@ -111,8 +100,8 @@
   {
     "id": "marine",
     "name": "Marine Diving",
-    "choiceAction": "Visit",
-    "choiceTitle": "Marine Diving",
+    "choiceAction": "Visit the",
+    "choiceTitle": "Marine Diving Technology Department",
     "coords": {
       "lat": -20,
       "lng": 36.75
@@ -122,22 +111,17 @@
       "h": 64
     },
     "bgVideo": {
-      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/campus-center.mp4",
-      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/campus-center.ogv"
+      "mp4": "https://player.vimeo.com/external/178095609.hd.mp4?s=55a6bff07c3127d24d2f518ec5179c6e29ba7b46&profile_id=174"
     },
     "bgImage": "images/location-menu-grimm.png",
     "video": {
-      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/campus-center.mp4",
-      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/campus-center.ogv"
+      "mp4": "https://player.vimeo.com/external/178095609.hd.mp4?s=55a6bff07c3127d24d2f518ec5179c6e29ba7b46&profile_id=174"
     },
     "image": "http://www.cui.edu/images/2011homepage/about_campus.jpg",
     "icon": "images/marine-icon-map.png",
     "iconRetina": "images/marine-icon-map@2x.png",
     "pointsOfInterest": [
-      {"id": "301", "name": "Concordia Christmas", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/grimmhalllawn/concordia-christmas.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/grimmhalllawn/concordia-christmas.ogv"}},
-      {"id": "302", "name": "RYFO Concert", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/grimmhalllawn/ryfo-concert.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/grimmhalllawn/ryfo-concert.ogv"}},
-      {"id": "303", "name": "Amphitheatre 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/grimmhalllawn/amphitheatre-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/grimmhalllawn/amphitheatre-360.ogv"}},
-      {"id": "304", "name": "Grimm Hall Lawn 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/grimmhalllawn/grimm-hall-lawn-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/grimmhalllawn/grimm-hall-lawn-360.ogv"}}
+      {"id": "301", "name": "Marine Diving", "mediaType": "video", "image": "", "video": {"mp4": "https://player.vimeo.com/external/178095609.hd.mp4?s=55a6bff07c3127d24d2f518ec5179c6e29ba7b46&profile_id=174"}}
     ],
     "locationChoices": [
       "biketour",
@@ -194,24 +178,17 @@
       "h": 64
     },
     "bgVideo": {
-      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/athletic-fields.mp4",
-      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/athletic-fields.ogv"
+      "mp4": "https://player.vimeo.com/external/178083224.hd.mp4?s=61c73f0f8480ac524c58f8b55c19095ffdc4465a&profile_id=174"
     },
     "bgImage": "images/location-menu-athletic_fields.png",
     "video": {
-      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/athletic-fields.mp4",
-      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/athletic-fields.ogv"
+      "mp4": "https://player.vimeo.com/external/178083224.hd.mp4?s=61c73f0f8480ac524c58f8b55c19095ffdc4465a&profile_id=174"
     },
     "image": "http://www.cui.edu/images/2011homepage/about_campus.jpg",
     "icon": "images/fields-icon-map.png",
     "iconRetina": "images/fields-icon-map@2x.png",
     "pointsOfInterest": [
-      {"id": "501", "name": "24-Hour Wiffleball Game", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/wiffleball.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/wiffleball.ogv"}},
-      {"id": "502", "name": "Cheer Squad", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/cheer.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/cheer.ogv"}},
-      {"id": "503", "name": "Soccer Game", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/soccer-game.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/soccer-game.ogv"}},
-      {"id": "505", "name": "Softball Field 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/softball-field-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/softball-field-360.ogv"}},
-      {"id": "506", "name": "Track & Field", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/track-and-field.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/track-and-field.ogv"}},
-      {"id": "507", "name": "Baseball Field 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/baseball-field-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/athleticfields/baseball-field-360.ogv"}}
+      {"id": "502", "name": "Athletics", "mediaType": "video", "image": "", "video": {"mp4": "https://player.vimeo.com/external/178083224.hd.mp4?s=61c73f0f8480ac524c58f8b55c19095ffdc4465a&profile_id=174"}}
     ],
     "locationChoices": [
       "biketour",
@@ -219,34 +196,30 @@
     ]
   },
   {
-    "id": "cafeteria",
-    "name": "Cafeteria",
+    "id": "culinaryarts",
+    "name": "School of Culinary Arts",
     "choiceAction": "Eat some",
     "choiceTitle": "Lunch",
     "coords": {
-      "lat": -17.5,
-      "lng": 50
+      "lat": -20,
+      "lng": 53
     },
     "iconsize": {
       "w": 64,
       "h": 64
     },
     "bgVideo": {
-      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/cafeteria.mp4",
-      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/cafeteria.ogv"
+      "mp4": "https://player.vimeo.com/external/178095318.hd.mp4?s=bc1088210574a64613e2c2b3475d1d808a606e23&profile_id=174"
     },
     "bgImage": "images/location-menu-cafeteria.png",
     "video": {
-      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/cafeteria.mp4",
-      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/cafeteria.ogv"
+      "mp4": "https://player.vimeo.com/external/178095318.hd.mp4?s=bc1088210574a64613e2c2b3475d1d808a606e23&profile_id=174"
     },
     "image": "http://www.cui.edu/images/2011homepage/about_campus.jpg",
     "icon": "images/cafe-icon-map.png",
     "iconRetina": "images/cafe-icon-map@2x.png",
     "pointsOfInterest": [
-      {"id": "601", "name": "Commuters' Eagle Lounge", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/cafeteria/eagle-lounge.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/cafeteria/eagle-lounge.ogv"}},
-      {"id": "602", "name": "Cafeteria 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/cafeteria/cafeteria-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/cafeteria/cafeteria-360.ogv"}},
-      {"id": "603", "name": "Cafeteria Check-in", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/cafeteria/cafeteria-checkin.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/cafeteria/cafeteria-checkin.ogv"}}
+      {"id": "601", "name": "School of Culinary Arts", "mediaType": "video", "image": "", "video": {"mp4": "https://player.vimeo.com/external/178095318.hd.mp4?s=bc1088210574a64613e2c2b3475d1d808a606e23&profile_id=174"}}
     ],
     "locationChoices": [
       "humanities",
@@ -267,22 +240,17 @@
       "h": 64
     },
     "bgVideo": {
-      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/residence-halls.mp4",
-      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/residence-halls.ogv"
+      "mp4": "https://player.vimeo.com/external/178097168.hd.mp4?s=a0b985159b8acc89fdccab940900d2dfec6a3e74&profile_id=174"
     },
     "bgImage": "images/location-menu-residencehalls.png",
     "video": {
-      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/residence-halls.mp4",
-      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/residence-halls.ogv"
+      "mp4": "https://player.vimeo.com/external/178097168.hd.mp4?s=a0b985159b8acc89fdccab940900d2dfec6a3e74&profile_id=174"
     },
     "image": "http://placekitten.com/200/300",
     "icon": "images/beach-icon-map.png",
     "iconRetina": "images/beach-icon-map@2x.png",
     "pointsOfInterest": [
-      {"id": "701", "name": "Room Tour", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/room-tour.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/room-tour.ogv"}},
-      {"id": "702", "name": "Global Village", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/global-village.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/global-village.ogv"}},
-      {"id": "703", "name": "Lower Quads 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/lower-quads-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/lower-quads-360.ogv"}},
-      {"id": "704", "name": "Upper Quads 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/upper-quads-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/upper-quads-360.ogv"}}
+      {"id": "701", "name": "Beach", "mediaType": "video", "image": "", "video": {"mp4": "https://player.vimeo.com/external/178097168.hd.mp4?s=a0b985159b8acc89fdccab940900d2dfec6a3e74&profile_id=174"}}
     ],
     "locationChoices": [
       "humanities",
@@ -303,22 +271,17 @@
       "h": 64
     },
     "bgVideo": {
-      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/residence-halls.mp4",
-      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/residence-halls.ogv"
+      "mp4": "https://player.vimeo.com/external/178088772.hd.mp4?s=26add001d7b2b343add0e282ebd7a5596081ca1d&profile_id=174"
     },
     "bgImage": "images/location-menu-residencehalls.png",
     "video": {
-      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/residence-halls.mp4",
-      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/residence-halls.ogv"
+      "mp4": "https://player.vimeo.com/external/178088772.hd.mp4?s=26add001d7b2b343add0e282ebd7a5596081ca1d&profile_id=174"
     },
     "image": "http://placekitten.com/200/300",
     "icon": "images/humanities-icon-map.png",
     "iconRetina": "images/humanities-icon-map@2x.png",
     "pointsOfInterest": [
-      {"id": "701", "name": "Room Tour", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/room-tour.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/room-tour.ogv"}},
-      {"id": "702", "name": "Global Village", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/global-village.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/global-village.ogv"}},
-      {"id": "703", "name": "Lower Quads 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/lower-quads-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/lower-quads-360.ogv"}},
-      {"id": "704", "name": "Upper Quads 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/upper-quads-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/residencehalls/upper-quads-360.ogv"}}
+      {"id": "701", "name": "Humanities", "mediaType": "video", "image": "", "video": {"mp4": "https://player.vimeo.com/external/178088772.hd.mp4?s=26add001d7b2b343add0e282ebd7a5596081ca1d&profile_id=174"}}
     ],
     "locationChoices": [
       "beach",

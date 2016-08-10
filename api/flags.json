@@ -121,17 +121,6 @@
     "bgImage": "images/flag-menu-admin.png"
   },
   {
-    "id": "culinaryarts",
-    "name": "School of Culinary Arts",
-    "coords": {
-      "lat": -19.5,
-      "lng": 51.5
-    },
-	"type": "flag",
-	"description": "Our School of Culinary Arts is housed here, along with the John Dunn Gourmet Dining Room.",
-    "bgImage": "images/flag-menu-alpha.png"
-  },
-  {
     "id": "interdisciplinarycenter",
     "name": "Interdisciplinary Center",
     "coords": {
@@ -173,17 +162,6 @@
     },
   "type": "flag",
   "description": "The Sports Pavilion houses the Life Fitness Center (LFC) and the Physical Education Department.",
-    "bgImage": "images/flag-menu-beta.png"
-  },
-{
-    "id": "physicalsciences",
-    "name": "Physical Science",
-    "coords": {
-      "lat": -17,
-      "lng": 47
-    },
-  "type": "flag",
-  "description": "The Physical Science building houses the Engineering, Physics, Earth Science, and other physical science majors.",
     "bgImage": "images/flag-menu-beta.png"
   }
 ]
