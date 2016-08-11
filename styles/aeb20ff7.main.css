@@ -189,7 +189,6 @@
 }
 
 .leaflet-container {
-    background: url(../sbcc-main-campus/5/0/0.png) repeat;
     outline: 0 !important;
 }
 
@@ -648,11 +647,6 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
-
-body {
-    margin: 0
-}
-
 a {
     background: transparent
 }
@@ -829,21 +823,23 @@ table {
 
 html,
 body {
-    font-size: 16px
-}
-
-body {
-    background: #fff;
-    color: #222;
-    padding: 0;
+    font-size: 16px;
     margin: 0;
-    font-family: tenso, Helvetica, Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1;
-    position: relative
+    padding: 0;
 }
-
+body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #333;
+    font-family: tenso, sans-serif;
+    font-weight: 400;
+    overflow: hidden;
+    background: url(../sbcc-main-campus/5/0/0.jpg) repeat;
+    line-height: 1;
+}
 a:focus {
     outline: 0
 }
@@ -6845,19 +6841,6 @@ a.th {
     }
 }
 
-body {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    color: #333;
-    font-family: tenso, sans-serif;
-    font-weight: 300;
-    overflow: hidden;
-    background: #006b77
-}
-
 body * {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-tap-highlight-color: transparent
@@ -7074,7 +7057,6 @@ button.focus {
 }
 
 #main-container .window-container {
-    background: #000;
     position: absolute;
     top: 0;
     left: 0;
