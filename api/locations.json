@@ -36,6 +36,37 @@
     ]
   },
   {
+    "id": "administration",
+    "name": "Administration and Occupational Education Offices",
+    "choiceAction": "Visit the",
+    "choiceTitle": "Administration and Occupational Education Offices",
+    "coords": {
+      "lat": -18.75,
+      "lng": 41.5
+    },
+    "iconsize": {
+      "w": 64,
+      "h": 64
+    },
+    "bgVideo": {
+      "mp4": "https://player.vimeo.com/external/178080996.hd.mp4?s=62a1f84025968576a7839727021ac098fb91f1be&profile_id=174"
+    },
+    "bgImage": "images/location-menu-sciencelabs.png",
+    "video": {
+      "mp4": "https://player.vimeo.com/external/178080996.hd.mp4?s=62a1f84025968576a7839727021ac098fb91f1be&profile_id=174"
+    },
+    "image": "http://www.cui.edu/images/2011homepage/about_campus.jpg",
+    "icon": "images/administration-icon-map.png",
+    "iconRetina": "images/administration-icon-map@2x.png",
+    "pointsOfInterest": [
+      {"id": "101", "name": "Administration and Occupational Education Offices", "mediaType": "video", "image": "", "video": {"mp4": "https://player.vimeo.com/external/178080996.hd.mp4?s=62a1f84025968576a7839727021ac098fb91f1be&profile_id=174"}}
+    ],
+    "locationChoices": [
+      "library",
+      "coffee"
+    ]
+  },
+  {
     "id": "sciencelabs",
     "name": "Physical Science",
     "choiceAction": "Visit the",
@@ -62,8 +93,39 @@
       {"id": "101", "name": "Physical Science", "mediaType": "video", "image": "", "video": {"mp4": "https://player.vimeo.com/external/178087950.hd.mp4?s=b9459be687794e87f121e16163d5c3b451bba722&profile_id=174"}}
     ],
     "locationChoices": [
-      "coffee",
-      "marine"
+      "library",
+      "humanities"
+    ]
+  },
+  {
+    "id": "library",
+    "name": "Learning Resources Center, Luria Library",
+    "choiceAction": "Visit the",
+    "choiceTitle": "Library",
+    "coords": {
+      "lat": -29.75,
+      "lng": 32.25
+    },
+    "iconsize": {
+      "w": 64,
+      "h": 64
+    },
+    "bgVideo": {
+      "mp4": "https://player.vimeo.com/external/178090584.hd.mp4?s=d9a04efb348ecedcb0dd54612e8c98701c5cfab3&profile_id=174"
+    },
+    "bgImage": "images/location-menu-sciencelabs.png",
+    "video": {
+      "mp4": "https://player.vimeo.com/external/178090584.hd.mp4?s=d9a04efb348ecedcb0dd54612e8c98701c5cfab3&profile_id=174"
+    },
+    "image": "http://www.cui.edu/images/2011homepage/about_campus.jpg",
+    "icon": "images/library-icon-map.png",
+    "iconRetina": "images/library-icon-map@2x.png",
+    "pointsOfInterest": [
+      {"id": "101", "name": "Library", "mediaType": "video", "image": "", "video": {"mp4": "https://player.vimeo.com/external/178090584.hd.mp4?s=d9a04efb348ecedcb0dd54612e8c98701c5cfab3&profile_id=174"}}
+    ],
+    "locationChoices": [
+      "humanities",
+      "sciencelabs"
     ]
   },
   {
@@ -93,8 +155,8 @@
       {"id": "201", "name": "West Campus / Cafe", "mediaType": "video", "image": "", "video": {"mp4": "https://player.vimeo.com/external/178083384.hd.mp4?s=738ca4e3389f1d21fa43a61a60c4a56e16ff71b1&profile_id=174"}}
     ],
     "locationChoices": [
-      "sciencelabs",
-      "marine"
+      "offcampus",
+      "administration"
     ]
   },
   {
@@ -124,51 +186,15 @@
       {"id": "301", "name": "Marine Diving", "mediaType": "video", "image": "", "video": {"mp4": "https://player.vimeo.com/external/178095609.hd.mp4?s=55a6bff07c3127d24d2f518ec5179c6e29ba7b46&profile_id=174"}}
     ],
     "locationChoices": [
-      "biketour",
-      "athletic_fields"
-    ]
-  },
-  {
-    "id": "biketour",
-    "name": "Bike Tour",
-    "choiceAction": "Go to",
-    "choiceTitle": "Bike Tour",
-    "coords": {
-      "lat": -24.5,
-      "lng": 17
-    },
-    "iconsize": {
-      "w": 64,
-      "h": 64
-    },
-    "bgVideo": {
-      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/chapel.mp4",
-      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/chapel.ogv"
-    },
-    "bgImage": "images/location-menu-chapel.png",
-    "video": {
-      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/chapel.mp4",
-      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/chapel.ogv"
-    },
-    "image": "http://www.cui.edu/images/2011homepage/about_campus.jpg",
-    "icon": "images/biketour-icon-map.png",
-    "iconRetina": "images/biketour-icon-map@2x.png",
-    "pointsOfInterest": [
-      {"id": "401", "name": "Grace Alone. Faith Alone.", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/grace-alone.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/grace-alone.ogv"}},
-      {"id": "402", "name": "CU Center 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/cu-center-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/cu-center-360.ogv"}},
-      {"id": "403", "name": "Good Shepherd Chapel Inside 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/good-shepherd-inside-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/good-shepherd-inside-360.ogv"}},
-      {"id": "404", "name": "Good Shepherd Chapel Outside 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/good-shepherd-outside-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/good-shepherd-outside-360.ogv"}}
-    ],
-    "locationChoices": [
-      "athletic_fields",
-      "cafeteria"
+      "beach",
+      "sciencelabs"
     ]
   },
   {
     "id": "athletic_fields",
-    "name": "La Playa Field",
+    "name": "Athletics",
     "choiceAction": "Visit the",
-    "choiceTitle": "Field",
+    "choiceTitle": "Athletic Fields",
     "coords": {
       "lat": -28.5,
       "lng": 57
@@ -191,8 +217,8 @@
       {"id": "502", "name": "Athletics", "mediaType": "video", "image": "", "video": {"mp4": "https://player.vimeo.com/external/178083224.hd.mp4?s=61c73f0f8480ac524c58f8b55c19095ffdc4465a&profile_id=174"}}
     ],
     "locationChoices": [
-      "biketour",
-      "cafeteria"
+      "beach",
+      "culinaryarts"
     ]
   },
   {
@@ -223,7 +249,7 @@
     ],
     "locationChoices": [
       "humanities",
-      "beach"
+      "library"
     ]
   },
   {
@@ -253,11 +279,11 @@
       {"id": "701", "name": "Beach", "mediaType": "video", "image": "", "video": {"mp4": "https://player.vimeo.com/external/178097168.hd.mp4?s=a0b985159b8acc89fdccab940900d2dfec6a3e74&profile_id=174"}}
     ],
     "locationChoices": [
-      "humanities",
-      "cafeteria"
+      "athletic_fields",
+      "offcampus"
     ]
   },
-{
+  {
     "id": "humanities",
     "name": "Humanities",
     "choiceAction": "Visit the",
@@ -284,8 +310,39 @@
       {"id": "701", "name": "Humanities", "mediaType": "video", "image": "", "video": {"mp4": "https://player.vimeo.com/external/178088772.hd.mp4?s=26add001d7b2b343add0e282ebd7a5596081ca1d&profile_id=174"}}
     ],
     "locationChoices": [
+      "library",
+      "sciencelabs"
+    ]
+  },
+  {
+    "id": "offcampus",
+    "name": "Off Campus",
+    "choiceAction": "Explore",
+    "choiceTitle": "Off Campus",
+    "coords": {
+      "lat": -24.5,
+      "lng": 17
+    },
+    "iconsize": {
+      "w": 64,
+      "h": 64
+    },
+    "bgVideo": {
+      "mp4": "https://player.vimeo.com/external/178093279.hd.mp4?s=21b78f1ca8d3fdb45d71edfeff953342ab8889da&profile_id=174"
+    },
+    "bgImage": "images/location-menu-residencehalls.png",
+    "video": {
+      "mp4": "https://player.vimeo.com/external/178093279.hd.mp4?s=21b78f1ca8d3fdb45d71edfeff953342ab8889da&profile_id=174"
+    },
+    "image": "http://placekitten.com/200/300",
+    "icon": "images/offcampus-icon-map.png",
+    "iconRetina": "images/offcampus-icon-map@2x.png",
+    "pointsOfInterest": [
+      {"id": "701", "name": "Off Campus", "mediaType": "video", "image": "", "video": {"mp4": "https://player.vimeo.com/external/178093279.hd.mp4?s=21b78f1ca8d3fdb45d71edfeff953342ab8889da&profile_id=174"}}
+    ],
+    "locationChoices": [
       "beach",
-      "athletic_fields"
+      "marine"
     ]
   }
 ]

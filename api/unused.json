@@ -60,3 +60,66 @@
   "description": "The Physical Science building houses the Engineering, Physics, Earth Science, and other physical science majors.",
     "bgImage": "images/flag-menu-beta.png"
   }
+
+
+    {
+    "id": "biketour",
+    "name": "Bike Tour",
+    "choiceAction": "Go to",
+    "choiceTitle": "Bike Tour",
+    "coords": {
+      "lat": -24.5,
+      "lng": 17
+    },
+    "iconsize": {
+      "w": 64,
+      "h": 64
+    },
+    "bgVideo": {
+      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/chapel.mp4",
+      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/transition/chapel.ogv"
+    },
+    "bgImage": "images/location-menu-chapel.png",
+    "video": {
+      "mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/chapel.mp4",
+      "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/primary/chapel.ogv"
+    },
+    "image": "http://www.cui.edu/images/2011homepage/about_campus.jpg",
+    "icon": "images/biketour-icon-map.png",
+    "iconRetina": "images/biketour-icon-map@2x.png",
+    "pointsOfInterest": [
+      {"id": "401", "name": "Grace Alone. Faith Alone.", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/grace-alone.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/grace-alone.ogv"}},
+      {"id": "402", "name": "CU Center 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/cu-center-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/cu-center-360.ogv"}},
+      {"id": "403", "name": "Good Shepherd Chapel Inside 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/good-shepherd-inside-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/good-shepherd-inside-360.ogv"}},
+      {"id": "404", "name": "Good Shepherd Chapel Outside 360", "mediaType": "video", "image": "", "video": {"mp4": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/good-shepherd-outside-360.mp4", "ogv": "http://d27f029kbt7jmm.cloudfront.net/videos/secondary/chapel/good-shepherd-outside-360.ogv"}}
+    ],
+    "locationChoices": [
+      "athletic_fields",
+      "culinaryarts"
+    ]
+  },
+
+
+    {
+    "id": "learningresources",
+    "name": "Learning Resources Center, Luria Library",
+    "coords": {
+      "lat": -28,
+      "lng": 32
+    },
+  "type": "flag",
+  "description": "Our Cartwright Learning Resources Center (CLRC) houses the Writing Center, Tutorial Center, computer and printing labs, and Learning Skills workshops. Right next door is the Luria Library. Both building are located on our West Campus.",
+    "bgImage": "images/flag-menu-beta.png"
+  },
+
+    {
+    "id": "administration",
+    "name": "Administration",
+    "coords": {
+      "lat": -17,
+      "lng": 39
+    },
+  "type": "flag",
+  "description": "The Mac Dougall Administration Center houses the administrative offices of the college, Information Desk, Occupational Education, and Foundation for SBCC offices.",
+    "bgImage": "images/flag-menu-goodshepherd.png"
+  },

@@ -1,16 +1,5 @@
 [
   {
-    "id": "administration",
-    "name": "Administration",
-    "coords": {
-      "lat": -17,
-      "lng": 39
-    },
-	"type": "flag",
-	"description": "The Mac Dougall Administration Center houses the administrative offices of the college, Information Desk, Occupational Education, and Foundation for SBCC offices.",
-    "bgImage": "images/flag-menu-goodshepherd.png"
-  },
-  {
     "id": "studentservices",
     "name": "Student Services",
     "coords": {
@@ -21,17 +10,7 @@
 	"description": "The Student Services Building houses Admissions & Records, Academic Counseling, Assessment, Career Center, Disabled Students Programs and Services (DSPS), Enrollment Services, Extended Opportunity Programs and Services (EOPS), Financial Aid, Student Health Services, Human Resources, and the Transfer Center.",
     "bgImage": "images/flag-menu-cuarena.png"
   },
-  {
-    "id": "bookstore",
-    "name": "Book Store",
-    "coords": {
-      "lat": -21,
-      "lng": 51
-    },
-	"type": "flag",
-	"description": "Each apartment-style dorm for upperclassmen in the Lower Quads includes a common living area and kitchen. Students come together to cook on the outdoor barbecue. The LQ is home to Wittenberg Hall, one of Concordia’s Living Learning Communities, devoted to living life together in the intersection between faith and learning.",
-    "bgImage": "images/flag-menu-lowerquads.png"
-  },
+
   {
     "id": "businesscommunicationcenter",
     "name": "Business / Communication Center",
@@ -140,17 +119,6 @@
     },
   "type": "flag",
   "description": "The International Education Center houses service for our international students, as well as the Study Abroad Office.",
-    "bgImage": "images/flag-menu-beta.png"
-  },
-  {
-    "id": "learningresources",
-    "name": "Learning Resources Center, Luria Library",
-    "coords": {
-      "lat": -28,
-      "lng": 32
-    },
-  "type": "flag",
-  "description": "Our Cartwright Learning Resources Center (CLRC) houses the Writing Center, Tutorial Center, computer and printing labs, and Learning Skills workshops. Right next door is the Luria Library. Both building are located on our West Campus.",
     "bgImage": "images/flag-menu-beta.png"
   },
 {

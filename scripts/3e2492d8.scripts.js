@@ -5743,7 +5743,7 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
     a.markerArr = [],
     a.lastOffset = 9000,
     a.lastClicked = "",
-    a.menuFadeTime = 2800,
+    a.menuFadeTime = 2000,
     a.guideFadeTime = 0,
     a.locations = d.query(function() {
 
@@ -5770,7 +5770,7 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
 
         a.map.on("click", function() {
             $(".location-menus-parents").fadeOut("slow"),
-            $(".flag-description").fadeOut("slow")
+            $(".flag-container").fadeOut("slow")
         });
 
         for (var c = 0; c < a.locations.length; c++) {
@@ -5787,7 +5787,7 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
 
             e.on("click", function(b) {
                 var c = a.locations[b.target.options.index];
-                $(".flag-description").css({
+                $(".flag-flag").css({
                     display: "none"
                 }),
                 $(".location-menus-parents").css({
@@ -5878,7 +5878,7 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
 
     a.flags = g.query(function() {
         for (var b = 0; b < a.flags.length; b++) {
-            var c = '<div class="flag-container"><div class="flag-flag"><div class="flagball"></div><div class="flagpole" /></div><div class="flagflag" id="flag-container-' + a.flags[b].id + '"><p class="flagtitle">' + a.flags[b].name + '</p></div><div class="flag-flag-shadow"><div class="flagball-shadow"></div><div class="flagpole-shadow" /></div><div class="flagflag-shadow" id="flag-container-' + a.flags[b].id + '"><p class="flagtitle-shadow">' + a.flags[b].name + "</p></div></div></div></div>"
+            var c = '<div class="flagflag" id="flagflag-' + a.flags[b].id + '"><div class="flag-container" id="flag-container-' + a.flags[b].id + '"><p class="flagtitle">' + a.flags[b].name + '</p></div></div>'
               , d = L.marker([a.flags[b].coords.lat, a.flags[b].coords.lng], {
                 index: b,
                 icon: L.letterIcon(c, {
@@ -5891,14 +5891,18 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
                 var c = a.flags[b.target.options.index];
                 a.lastOffset += 500,
                 b.target.setZIndexOffset(a.lastOffset),
-                a.lastClicked != b.target ? ($(".location-menus-parents").css({
+                $(".location-menus-parents").css({
+                    display: "none"
+                }),
+                $(".flag-container").css({
                     display: "none"
                 }),
                 $(".flag-description").css({
-                    display: "none"
-                }),
-                $("#flag-description-" + c.id).fadeIn("slow")) : a.lastClicked = "",
-                a.lastClicked = b.target;
+                    display: "block"
+                }),               
+                $("#flag-container-" + c.id).fadeIn("slow");
+
+
                 var d = L.marker([(1.000011 * (c.coords.lat - 1e-4) + -25.5) / 2, (1.000021 * c.coords.lng + 38) / 2])
                   , e = new L.featureGroup([b.target, d]);
                 Environment.isMobile() | $(window).width() < $(window).height() ? a.map.panTo([c.coords.lat - 1e-4, c.coords.lng + 95e-5], {
