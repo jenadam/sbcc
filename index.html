@@ -65,13 +65,13 @@
       <div class="large-6 columns large-centered">
         <div class="row">
           <div class="large-5 columns large-offset-1">
-            <a href="#/locations/intro" ng-click="welcomeView.active = false" class="button h-welcome-guided-button">Begin Guided Tour<small>Follow our students through a day in the life.</small></a>
+            <a href="#/locations/intro" class="button h-welcome-guided-button">Begin Guided Tour<small>Follow our students through a day in the life.</small></a>
           </div>
           <div class="large-1 columns">
             <span>Or</span>
           </div>
           <div class="large-5 columns">
-            <a href="" ng-click="welcomeView.active = false" class="button h-welcome-explore-button">Explore the Map<small>Pick a point on the map that interests you.</small></a>
+            <a href="" class="button h-welcome-explore-button">Explore the Map<small>Pick a point on the map that interests you.</small></a>
           </div>
         </div>
       </div>
@@ -179,9 +179,6 @@
 
       </div>
 
-
-
-
         <script src="scripts/ab5452c9.modules.js"></script>
       
 
@@ -221,6 +218,9 @@
               sessionStorage.setItem('welcomeShow','shown')
             }
 
+            $(".h-welcome-explore-button").click( function () {
+              $("#welcome").delay(1000).fadeOut();
+            });
           });
         </script>
 
