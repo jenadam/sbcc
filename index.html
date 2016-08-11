@@ -71,7 +71,7 @@
             <span>Or</span>
           </div>
           <div class="large-5 columns">
-            <button class="button h-welcome-explore-button">Explore the Map<small>Pick a point on the map that interests you.</small></button>
+            <button class="button h-welcome-explore-button" onclick="$('#welcome').fadeOut('fast')">Explore the Map<small>Pick a point on the map that interests you.</small></button>
           </div>
         </div>
       </div>
@@ -217,7 +217,7 @@
               }
 
               $(".h-welcome-explore-button").click( function () {
-                $(this).closest('#welcome').hide();
+                $(this).closest('#welcome').fadeOut('fast');
               });
           });
         </script>
