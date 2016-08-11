@@ -5755,7 +5755,7 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
 
         a.mapMaxBounds = new L.LatLngBounds(a.map.unproject([0, 1792], 5), a.map.unproject([2560, 0], 5)),
         
-        L.tileLayer("sbcc-main-campus/{z}/{x}/{y}.png", {
+        L.tileLayer("sbcc-main-campus/{z}/{x}/{y}.jpg", {
             minZoom: 5,
             maxZoom: 5,
             bounds: a.mapMaxBounds,
