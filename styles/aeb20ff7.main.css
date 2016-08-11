@@ -8845,12 +8845,6 @@ screen and (max-width:48em) and (min-resolution:1.3dppx) {
     line-height: 125px
 }
 
-@media screen and (max-width:48em) {
-    #welcome span {
-        display: none
-    }
-}
-
 #welcome .button {
     padding: .625em .5em .5em;
     font-size: 1.6em;
@@ -8882,23 +8876,27 @@ screen and (max-width:48em) and (min-resolution:1.3dppx) {
 
 @media screen and (max-width:48em) {
     #welcome .button {
-        padding: .3125em
+        padding: .5em;
+        width: 300px;
+        font-size: 1.4em;
     }
     #welcome .button small {
-        display: none
+        display: none;
     }
-}
-
-.welcome-options {
-    margin-top: 2.5em
-}
-
-.welcome-options>.columns>.row {
-    margin-left: -8.33333%
-}
-@media screen and (max-width:48em) {
+    #welcome span {
+        display: none;
+    }
+    .welcome-options .large-5 {
+        padding: 0 !important;
+    }
+    .h-welcome-explore-button {
+        margin-top: 1.5em;
+    }
     .welcome-options {
-        margin-top: 0
+        margin-top: 1em;
+    }
+    .welcome-options .row {
+        margin: 0;
     }
 }
 
