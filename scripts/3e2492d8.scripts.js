@@ -5751,12 +5751,14 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
             minZoom: 5,
             maxZoom: 5,
             crs: L.CRS.Simple
-        }),
+        }).setView([0, 0], 5),
 
+        a.mapCenter = a.map.unproject([1280, 896], 5),
+        a.map.panTo(a.mapCenter),
+        
         a.mapMaxBounds = new L.LatLngBounds(a.map.unproject([0, 1792], 5), a.map.unproject([2560, 0], 5)),
         a.map.setMaxBounds(a.mapMaxBounds),
-        a.mapCenter = a.map.unproject([1280, 896], 5),
-        
+
         L.tileLayer("sbcc-main-campus/{z}/{x}/{y}.jpg", {
             minZoom: 5,
             maxZoom: 5,
@@ -5766,19 +5768,11 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
             tms: false
         }).addTo(a.map),
 
-        a.map.setView([0, 0], 5),
-
-        setTimeout(function(){
-            a.map.invalidateSize();
-            }, 1);
-
-        a.map.panTo(a.mapCenter),
 
         a.map.on("click", function() {
             $(".location-menus-parents").fadeOut("slow"),
             $(".flag-container").fadeOut("slow")
         });
-
 
         for (var c = 0; c < a.locations.length; c++) {
             var d = L.icon({
