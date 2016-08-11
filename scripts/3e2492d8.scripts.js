@@ -5772,7 +5772,8 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
             $(".location-menus-parents").fadeOut("slow"),
             $(".flag-container").fadeOut("slow")
         });
-
+        a.map.invalidateSize();
+        
         for (var c = 0; c < a.locations.length; c++) {
             var d = L.icon({
                 iconUrl: a.locations[c].icon,
