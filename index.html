@@ -219,7 +219,7 @@
             }
 
             $(".h-welcome-explore-button").click( function () {
-              $("#welcome").delay(1000).fadeOut();
+              $(this).closest('#welcome').fadeOut('fast');
             });
           });
         </script>
