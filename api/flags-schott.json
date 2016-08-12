@@ -3,8 +3,8 @@
     "id": "ceramicslab",
     "name": "Ceramics Lab",
     "coords": {
-      "lat": -16.25,
-      "lng": 19.5
+      "lat": -8.5,
+      "lng": 18
     },
 	"type": "flag",
 	"description": "Ceramics Lab",
@@ -14,8 +14,8 @@
     "id": "culinarylab",
     "name": "Culinary Lab",
     "coords": {
-      "lat": -17.5,
-      "lng": 23
+      "lat": -8.5,
+      "lng": 19.5
     },
   "type": "flag",
   "description": "Culinary Lab",
@@ -25,8 +25,8 @@
     "id": "computerlab",
     "name": "Computer Lab",
     "coords": {
-      "lat": -25,
-      "lng": 20
+      "lat": -12.65,
+      "lng": 19
     },
   "type": "flag",
   "description": "Computer Lab",
@@ -36,8 +36,8 @@
     "id": "tannahill",
     "name": "Tannahill Auditorium",
     "coords": {
-      "lat": -27,
-      "lng": 30
+      "lat": -13.25,
+      "lng": 23.05
     },
   "type": "flag",
   "description": "Tannahill Auditorium",

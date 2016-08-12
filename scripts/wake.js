@@ -5754,28 +5754,26 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
     $("#welcome").css({
         display: "none"
     }),
-    a.locations = d.query(function() {
+        a.locations = d.query(function() {
 
         a.map = L.map("map", {
             minZoom: 5,
             maxZoom: 5,
             crs: L.CRS.Simple
-        }).setView([-24, 32], 5),
-
-        a.mapMaxBounds = new L.LatLngBounds(a.map.unproject([0, 1536], 5), a.map.unproject([2048, 0], 5)),
+        }).setView([-12, 24], 5),
+        a.mapCenter = a.map.unproject([768, 384], 5),
+        a.map.panTo(a.mapCenter),
+        a.mapMaxBounds = new L.LatLngBounds(a.map.unproject([0, 768], 5), a.map.unproject([1536, 0], 5)),
         
-        L.tileLayer("wake-campus/{z}/{x}/{y}.png", {
+        L.tileLayer("wake-campus/{z}/{x}/{y}.jpg", {
             minZoom: 5,
             maxZoom: 5,
             bounds: a.mapMaxBounds,
             opacity: 1,
-            noWrap: true,
             tms: false,
-            fadeAnimation: true
+            tileSize: 128,
+            noWrap: true,            
         }).addTo(a.map),
-        a.map.setMaxBounds(a.mapMaxBounds),
-        a.mapCenter = a.map.unproject([1024, 768], 5),
-        a.map.panTo(a.mapCenter),
 
         a.map.on("click", function() {
             $(".location-menus-parents").fadeOut("slow"),
@@ -5805,9 +5803,9 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
                 $("#location-menus-parent-" + c.id).fadeIn("slow");
 
 
-                var d = L.marker([-24, 32])
+                var d = L.marker([-12, 16])
                   , e = new L.featureGroup([b.target, d]);
-                Environment.isMobile() | $(window).width() < $(window).height() ? a.map.panTo([c.coords.lat + 1e-4, c.coords.lng - 7e-4], {
+                Environment.isMobile() | $(window).width() < $(window).height() ? a.map.panTo([c.coords.lat, c.coords.lng], {
                     duration: "1.5",
                     easeLinearity: "0.5"
                 }) : a.map.fitBounds(e.getBounds(), {

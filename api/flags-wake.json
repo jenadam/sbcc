@@ -3,8 +3,8 @@
     "id": "sewinglab",
     "name": "Sewing Lab",
     "coords": {
-      "lat": -27,
-      "lng": 34
+      "lat": -13.25,
+      "lng": 23.05
     },
   "type": "flag",
   "description": "Sewing Lab",
@@ -14,8 +14,8 @@
     "id": "jewelrylab",
     "name": "Jewelry Lab",
     "coords": {
-      "lat": -27,
-      "lng": 32.25
+      "lat": -11.9,
+      "lng": 24
     },
   "type": "flag",
   "description": "Jewelry Lab",
@@ -25,8 +25,8 @@
     "id": "computerlabs",
     "name": "Computer Labs",
     "coords": {
-      "lat": -24.25,
-      "lng": 23.5
+      "lat": -12.25,
+      "lng": 20
     },
   "type": "flag",
   "description": "Computer Labs",
@@ -36,8 +36,8 @@
     "id": "thornton",
     "name": "Thornton Auditorium",
     "coords": {
-      "lat": -18.5,
-      "lng": 22.5
+      "lat": -9.25,
+      "lng": 19
     },
   "type": "flag",
   "description": "Thornton Auditorium",
@@ -47,8 +47,8 @@
     "id": "glasslab",
     "name": "Glass Lab Studio",
     "coords": {
-      "lat": -27.25,
-      "lng": 23.5
+      "lat": -13.65,
+      "lng": 17.25
     },
   "type": "flag",
   "description": "Glass Lab Studio",
