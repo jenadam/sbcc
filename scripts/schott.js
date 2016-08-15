@@ -5761,6 +5761,7 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
             maxZoom: 5,
             crs: L.CRS.Simple
         }).setView([-12, 24], 5),
+
         a.mapCenter = a.map.unproject([768, 384], 5),
         a.map.panTo(a.mapCenter),
         a.mapMaxBounds = new L.LatLngBounds(a.map.unproject([0, 768], 5), a.map.unproject([1536, 0], 5)),
@@ -5804,7 +5805,7 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
                 $("#location-menus-parent-" + c.id).fadeIn("slow");
 
 
-                var d = L.marker([-12, 14])
+                var d = L.marker([-12, 24])
                   , e = new L.featureGroup([b.target, d]);
                 Environment.isMobile() | $(window).width() < $(window).height() ? a.map.panTo([c.coords.lat + 1e-4, c.coords.lng - 7e-4], {
                     duration: "1.5",

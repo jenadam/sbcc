@@ -3,19 +3,19 @@
     "id": "sewinglab",
     "name": "Sewing Lab",
     "coords": {
-      "lat": -13.25,
-      "lng": 23.05
+      "lat": -17.25,
+      "lng": 25.5
     },
   "type": "flag",
   "description": "Sewing Lab",
-    "bgImage": "images/flag-menu-goodshepherd.png"
+    "bgImage": "images/flag-menu-sewing.jpg"
   },
   {
     "id": "jewelrylab",
     "name": "Jewelry Lab",
     "coords": {
-      "lat": -11.9,
-      "lng": 24
+      "lat": -17.25,
+      "lng": 24.5
     },
   "type": "flag",
   "description": "Jewelry Lab",
@@ -25,33 +25,55 @@
     "id": "computerlabs",
     "name": "Computer Labs",
     "coords": {
-      "lat": -12.25,
+      "lat": -17.5,
       "lng": 20
     },
   "type": "flag",
   "description": "Computer Labs",
-    "bgImage": "images/flag-menu-goodshepherd.png"
+    "bgImage": "images/flag-menu-computerlabwake.jpg"
   },
   {
     "id": "thornton",
     "name": "Thornton Auditorium",
     "coords": {
-      "lat": -9.25,
-      "lng": 19
+      "lat": -14.25,
+      "lng": 19.5
     },
   "type": "flag",
   "description": "Thornton Auditorium",
-    "bgImage": "images/flag-menu-goodshepherd.png"
+    "bgImage": "images/flag-menu-thornton.jpg"
   },
   {
     "id": "glasslab",
     "name": "Glass Lab Studio",
     "coords": {
-      "lat": -13.65,
-      "lng": 17.25
+      "lat": -19,
+      "lng": 17.75
     },
   "type": "flag",
   "description": "Glass Lab Studio",
-    "bgImage": "images/flag-menu-goodshepherd.png"
+    "bgImage": "images/flag-menu-glassstudio.jpg"
+  },
+  {
+    "id": "construction",
+    "name": "Construction Academy",
+    "coords": {
+      "lat": -15.75,
+      "lng": 31.5
+    },
+  "type": "flag",
+  "description": "Construction Academy",
+    "bgImage": "images/flag-menu-constructionwake.jpg"
+  },
+  {
+    "id": "woodworking",
+    "name": "Woodworking Lab",
+    "coords": {
+      "lat": -17.25,
+      "lng": 26.5
+    },
+  "type": "flag",
+  "description": "Woodworking Lab",
+    "bgImage": "images/flag-menu-woodworking.jpg"
   }
 ]

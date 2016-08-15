@@ -5760,10 +5760,10 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
             minZoom: 5,
             maxZoom: 5,
             crs: L.CRS.Simple
-        }).setView([-12, 24], 5),
-        a.mapCenter = a.map.unproject([768, 384], 5),
+        }).setView([-17.5, 25], 5),
+        a.mapCenter = a.map.unproject([800, 560], 5),
         a.map.panTo(a.mapCenter),
-        a.mapMaxBounds = new L.LatLngBounds(a.map.unproject([0, 768], 5), a.map.unproject([1536, 0], 5)),
+        a.mapMaxBounds = new L.LatLngBounds(a.map.unproject([0, 1120], 5), a.map.unproject([1600, 0], 5)),
         
         L.tileLayer("wake-campus/{z}/{x}/{y}.jpg", {
             minZoom: 5,
@@ -5771,7 +5771,7 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
             bounds: a.mapMaxBounds,
             opacity: 1,
             tms: false,
-            tileSize: 128,
+            tileSize: 160,
             noWrap: true,            
         }).addTo(a.map),
 
@@ -5803,7 +5803,7 @@ angular.module("cuiVtourAngularApp").controller("MainCtrl", ["$scope", "$compile
                 $("#location-menus-parent-" + c.id).fadeIn("slow");
 
 
-                var d = L.marker([-12, 16])
+                var d = L.marker([-17.5, 25])
                   , e = new L.featureGroup([b.target, d]);
                 Environment.isMobile() | $(window).width() < $(window).height() ? a.map.panTo([c.coords.lat, c.coords.lng], {
                     duration: "1.5",

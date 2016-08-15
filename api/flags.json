@@ -8,7 +8,7 @@
     },
 	"type": "flag",
 	"description": "The Student Services Building houses Admissions & Records, Academic Counseling, Assessment, Career Center, Disabled Students Programs and Services (DSPS), Enrollment Services, Extended Opportunity Programs and Services (EOPS), Financial Aid, Student Health Services, Human Resources, and the Transfer Center.",
-    "bgImage": "images/flag-menu-cuarena.png"
+    "bgImage": "images/flag-menu-studentservices.jpg"
   },
 
   {
@@ -20,7 +20,7 @@
     },
 	"type": "flag",
 	"description": "The Business/Communication Center is located on our West Campus. It houses the FeBland Forum as well as the West Campus Snack Shop, the Business Department and Communication Department offices, and the Business Communications labs.",
-    "bgImage": "images/flag-menu-rho.png"
+    "bgImage": "images/flag-menu-business.jpg"
   },
   {
     "id": "campuscenter",
@@ -31,7 +31,7 @@
     },
 	"type": "flag",
 	"description": "The Campus Center houses the Cafeteria, East Campus Snack Shop and variety of inexpensive food choices, Office of Student Life: Housing Information, Student Activities and Associated Student Government, and The Channels (SBCC’s community newspaper).",
-    "bgImage": "images/flag-menu-sigma.png"
+    "bgImage": "images/flag-menu-campuscenter.jpg"
   },
   {
     "id": "dramamusic",
@@ -42,7 +42,7 @@
     },
 	"type": "flag",
 	"description": "The Drama/Music building is located on the West Campus. It houses the Jurkowitz Theatre and the Drama and Music Department offices.",
-    "bgImage": "images/flag-menu-cucenter.png"
+    "bgImage": "images/flag-menu-dramamusic.jpg"
   },
   {
     "id": "eastcampusclassrooms",
@@ -53,7 +53,7 @@
     },
 	"type": "flag",
 	"description": "This area represents East Campus Classrooms 4-7,14-15, 16-21, 28-30, and 33.",
-    "bgImage": "images/flag-menu-mall.png"
+    "bgImage": "images/flag-menu-eastclassroom.jpg"
   },
   {
     "id": "eastcampusofficecenter1and2",
@@ -64,7 +64,7 @@
     },
 	"type": "flag",
 	"description": "East Campus Office Center I and II, ESL Center",
-    "bgImage": "images/flag-menu-studentunion.png"
+    "bgImage": "images/flag-menu-eastcampus12.jpg"
   },
   {
     "id": "eastcampusofficecenter3and4",
@@ -75,7 +75,7 @@
     },
 	"type": "flag",
 	"description": "East Campus Office Centers II & IV are located here.",
-    "bgImage": "images/flag-menu-grimm.png"
+    "bgImage": "images/flag-menu-eastcampusoffice.jpg"
   },
   {
     "id": "garvintheater",
@@ -86,7 +86,7 @@
     },
 	"type": "flag",
 	"description": "The Garvin Theatre is where all campus theatre and music productions are performed.",
-    "bgImage": "images/flag-menu-founders.png"
+    "bgImage": "images/flag-menu-garvin.jpg"
   },
   {
     "id": "security",
@@ -97,7 +97,7 @@
     },
 	"type": "flag",
 	"description": "Here you will find the Campus Security Office in ECC 41. East Campus Classroom 40 houses the Faculty Resource Center; ECC 42 is Purchasing/Receiving.",
-    "bgImage": "images/flag-menu-admin.png"
+    "bgImage": "images/flag-menu-security.jpg"
   },
   {
     "id": "interdisciplinarycenter",
@@ -108,7 +108,7 @@
     },
 	"type": "flag",
 	"description": "The Interdisciplinary Center Houses classrooms and faculty offices.",
-    "bgImage": "images/flag-menu-beta.png"
+    "bgImage": "images/flag-menu-interdisciplinary.jpg"
   },
   {
     "id": "internationaleducationcenter",
@@ -119,18 +119,18 @@
     },
   "type": "flag",
   "description": "The International Education Center houses service for our international students, as well as the Study Abroad Office.",
-    "bgImage": "images/flag-menu-beta.png"
+    "bgImage": "images/flag-menu-international.jpg"
   },
 {
     "id": "sportspavilion",
     "name": "Sports Pavilion",
     "coords": {
-      "lat": -25,
-      "lng": 45
+      "lat": -26,
+      "lng": 48
     },
   "type": "flag",
   "description": "The Sports Pavilion houses the Life Fitness Center (LFC) and the Physical Education Department.",
-    "bgImage": "images/flag-menu-beta.png"
+    "bgImage": "images/flag-menu-sportspavilion.jpg"
   }
 ]
 

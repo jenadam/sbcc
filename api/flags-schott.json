@@ -8,7 +8,7 @@
     },
 	"type": "flag",
 	"description": "Ceramics Lab",
-    "bgImage": "images/flag-menu-goodshepherd.png"
+    "bgImage": "images/flag-menu-ceramics.jpg"
   },
   {
     "id": "culinarylab",
@@ -19,7 +19,7 @@
     },
   "type": "flag",
   "description": "Culinary Lab",
-    "bgImage": "images/flag-menu-goodshepherd.png"
+    "bgImage": "images/flag-menu-culinary.jpg"
   },
   {
     "id": "computerlab",
@@ -30,7 +30,7 @@
     },
   "type": "flag",
   "description": "Computer Lab",
-    "bgImage": "images/flag-menu-goodshepherd.png"
+    "bgImage": "images/flag-menu-computerlab.jpg"
   },
   {
     "id": "tannahill",
@@ -41,6 +41,6 @@
     },
   "type": "flag",
   "description": "Tannahill Auditorium",
-    "bgImage": "images/flag-menu-goodshepherd.png"
+    "bgImage": "images/flag-menu-tannahill.jpg"
   }
 ]

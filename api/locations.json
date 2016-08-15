@@ -9,8 +9,8 @@
       "lng": 38.25
     },
     "iconsize": {
-      "w": 64,
-      "h": 64
+      "w": 60,
+      "h": 60
     },
     "bgVideo": {
       "mp4": "https://player.vimeo.com/external/178072092.hd.mp4?s=01477322e34e720b5385c6038eb20d9fb1171b50&profile_id=174"
@@ -45,13 +45,13 @@
       "lng": 41.5
     },
     "iconsize": {
-      "w": 64,
-      "h": 64
+      "w": 60,
+      "h": 60
     },
     "bgVideo": {
       "mp4": "https://player.vimeo.com/external/178080996.hd.mp4?s=62a1f84025968576a7839727021ac098fb91f1be&profile_id=174"
     },
-    "bgImage": "images/location-menu-sciencelabs.png",
+    "bgImage": "images/location-menu-occupational.jpg",
     "video": {
       "mp4": "https://player.vimeo.com/external/178080996.hd.mp4?s=62a1f84025968576a7839727021ac098fb91f1be&profile_id=174"
     },
@@ -76,13 +76,13 @@
       "lng": 46
     },
     "iconsize": {
-      "w": 64,
-      "h": 64
+      "w": 60,
+      "h": 60
     },
     "bgVideo": {
       "mp4": "https://player.vimeo.com/external/178087950.hd.mp4?s=b9459be687794e87f121e16163d5c3b451bba722&profile_id=174"
     },
-    "bgImage": "images/location-menu-sciencelabs.png",
+    "bgImage": "images/location-menu-sciencelabs.jpg",
     "video": {
       "mp4": "https://player.vimeo.com/external/178087950.hd.mp4?s=b9459be687794e87f121e16163d5c3b451bba722&profile_id=174"
     },
@@ -107,13 +107,13 @@
       "lng": 32.25
     },
     "iconsize": {
-      "w": 64,
-      "h": 64
+      "w": 60,
+      "h": 60
     },
     "bgVideo": {
       "mp4": "https://player.vimeo.com/external/178090584.hd.mp4?s=d9a04efb348ecedcb0dd54612e8c98701c5cfab3&profile_id=174"
     },
-    "bgImage": "images/location-menu-sciencelabs.png",
+    "bgImage": "images/location-menu-library.jpg",
     "video": {
       "mp4": "https://player.vimeo.com/external/178090584.hd.mp4?s=d9a04efb348ecedcb0dd54612e8c98701c5cfab3&profile_id=174"
     },
@@ -138,13 +138,13 @@
       "lng": 26
     },
     "iconsize": {
-      "w": 64,
-      "h": 64
+      "w": 60,
+      "h": 60
     },
     "bgVideo": {
       "mp4": "https://player.vimeo.com/external/178083384.hd.mp4?s=738ca4e3389f1d21fa43a61a60c4a56e16ff71b1&profile_id=174"
     },
-    "bgImage": "images/location-menu-coffeeandclass.png",
+    "bgImage": "images/location-menu-west.jpg",
     "video": {
       "mp4": "https://player.vimeo.com/external/178083384.hd.mp4?s=738ca4e3389f1d21fa43a61a60c4a56e16ff71b1&profile_id=174"
     },
@@ -169,13 +169,13 @@
       "lng": 36.75
     },
     "iconsize": {
-      "w": 64,
-      "h": 64
+      "w": 60,
+      "h": 60
     },
     "bgVideo": {
       "mp4": "https://player.vimeo.com/external/178095609.hd.mp4?s=55a6bff07c3127d24d2f518ec5179c6e29ba7b46&profile_id=174"
     },
-    "bgImage": "images/location-menu-grimm.png",
+    "bgImage": "images/location-menu-marinediving.jpg",
     "video": {
       "mp4": "https://player.vimeo.com/external/178095609.hd.mp4?s=55a6bff07c3127d24d2f518ec5179c6e29ba7b46&profile_id=174"
     },
@@ -200,13 +200,13 @@
       "lng": 57
     },
     "iconsize": {
-      "w": 64,
-      "h": 64
+      "w": 60,
+      "h": 60
     },
     "bgVideo": {
       "mp4": "https://player.vimeo.com/external/178083224.hd.mp4?s=61c73f0f8480ac524c58f8b55c19095ffdc4465a&profile_id=174"
     },
-    "bgImage": "images/location-menu-athletic_fields.png",
+    "bgImage": "images/location-menu-athletic_fields.jpg",
     "video": {
       "mp4": "https://player.vimeo.com/external/178083224.hd.mp4?s=61c73f0f8480ac524c58f8b55c19095ffdc4465a&profile_id=174"
     },
@@ -231,13 +231,13 @@
       "lng": 53
     },
     "iconsize": {
-      "w": 64,
-      "h": 64
+      "w": 60,
+      "h": 60
     },
     "bgVideo": {
       "mp4": "https://player.vimeo.com/external/178095318.hd.mp4?s=bc1088210574a64613e2c2b3475d1d808a606e23&profile_id=174"
     },
-    "bgImage": "images/location-menu-cafeteria.png",
+    "bgImage": "images/location-menu-culinary.jpg",
     "video": {
       "mp4": "https://player.vimeo.com/external/178095318.hd.mp4?s=bc1088210574a64613e2c2b3475d1d808a606e23&profile_id=174"
     },
@@ -254,7 +254,7 @@
   },
   {
     "id": "beach",
-    "name": "Beach/Off Campus",
+    "name": "Beach",
     "choiceAction": "See the",
     "choiceTitle": "Beach",
     "coords": {
@@ -262,13 +262,13 @@
       "lng": 46
     },
     "iconsize": {
-      "w": 64,
-      "h": 64
+      "w": 60,
+      "h": 60
     },
     "bgVideo": {
       "mp4": "https://player.vimeo.com/external/178097168.hd.mp4?s=a0b985159b8acc89fdccab940900d2dfec6a3e74&profile_id=174"
     },
-    "bgImage": "images/location-menu-residencehalls.png",
+    "bgImage": "images/location-menu-offcampus.jpg",
     "video": {
       "mp4": "https://player.vimeo.com/external/178097168.hd.mp4?s=a0b985159b8acc89fdccab940900d2dfec6a3e74&profile_id=174"
     },
@@ -293,13 +293,13 @@
       "lng": 53.25
     },
     "iconsize": {
-      "w": 64,
-      "h": 64
+      "w": 60,
+      "h": 60
     },
     "bgVideo": {
       "mp4": "https://player.vimeo.com/external/178088772.hd.mp4?s=26add001d7b2b343add0e282ebd7a5596081ca1d&profile_id=174"
     },
-    "bgImage": "images/location-menu-residencehalls.png",
+    "bgImage": "images/location-menu-humanities.jpg",
     "video": {
       "mp4": "https://player.vimeo.com/external/178088772.hd.mp4?s=26add001d7b2b343add0e282ebd7a5596081ca1d&profile_id=174"
     },
@@ -324,13 +324,13 @@
       "lng": 17
     },
     "iconsize": {
-      "w": 64,
-      "h": 64
+      "w": 60,
+      "h": 60
     },
     "bgVideo": {
       "mp4": "https://player.vimeo.com/external/178093279.hd.mp4?s=21b78f1ca8d3fdb45d71edfeff953342ab8889da&profile_id=174"
     },
-    "bgImage": "images/location-menu-residencehalls.png",
+    "bgImage": "images/location-menu-offcampus.jpg",
     "video": {
       "mp4": "https://player.vimeo.com/external/178093279.hd.mp4?s=21b78f1ca8d3fdb45d71edfeff953342ab8889da&profile_id=174"
     },
